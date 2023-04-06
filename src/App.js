@@ -7,8 +7,7 @@ import About from './Pages/About/About'
 import Study from './Pages/Study/Study'
 import Activity from './Pages/Activity/Activity'
 
-// Component
-import Nav from './Components/Nav'
+// Components
 import './App.css'
 
 const App = () => {

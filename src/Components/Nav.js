@@ -13,7 +13,7 @@ const Nav = () => {
 
       {/* Logo */}
       <div className={styles.logo_container}>
-        <Link to='/'><img src='img/CAUtion_logo.png'/></Link>
+        <Link to='/'><img src='img/CAUtion_logo.png' alt='CAUtion_logo' /></Link>
       </div>
 
       {/* Nav Links */}
