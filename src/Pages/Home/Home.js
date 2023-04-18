@@ -10,6 +10,7 @@ const Home = () => {
   return (
     <div>
 
+      {/* Nav bar */}
       <Nav />
 
       <div className={styles.home_container}>
