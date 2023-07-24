@@ -1,14 +1,15 @@
 import React from 'react'
 
 import Nav from '../../Components/Nav'
+import Title from "../../Components/title/Title";
 
 const Management = () => {
     return (
         <div>
 
             <Nav />
+            <Title props={'Management'}/>
 
-            <h1>Management</h1>
         </div>
     )
 }

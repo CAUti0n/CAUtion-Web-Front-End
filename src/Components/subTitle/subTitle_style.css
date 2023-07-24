@@ -1,0 +1,20 @@
+.sub_content{
+    position:relative;
+    text-align: left;
+    right:250px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    top:40px;
+    font-size: 25px;
+    line-height: 20px;
+    font-weight: 700;
+    color:#00b992;
+}
+.subTitle_wrapper{
+    width:100%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 10px;
+}
