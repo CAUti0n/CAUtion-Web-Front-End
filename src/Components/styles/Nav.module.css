@@ -27,7 +27,7 @@
 /* Nav Links */
 .nav_links_container {
     position: absolute;
-    left: 400px;
+    right: 200px;
     height: inherit;
 
     display: flex;

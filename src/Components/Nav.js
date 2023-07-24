@@ -18,10 +18,10 @@ const Nav = () => {
 
       {/* Nav Links */}
       <div className={styles.nav_links_container}>
-        <Link to='/' className={styles.nav_link}>Home</Link>
-        <Link to='/about' className={styles.nav_link}>About</Link>
-        <Link to='/study' className={styles.nav_link}>Study</Link>
-        <Link to='/activity' className={styles.nav_link}>Activity</Link>
+          <Link to='/about' >About</Link>
+          <Link to='/management'>Management</Link>
+          <Link to='/study' >Study</Link>
+          <Link to='/activity'>Activity</Link>
       </div>
 
     </div>
