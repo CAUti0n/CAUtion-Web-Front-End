@@ -10,7 +10,6 @@ import Activity from './Pages/Activity/Activity'
 
 // Components
 import './App.css'
-import Management from "./Pages/Management/Management";
 
 const App = () => {
   return (
