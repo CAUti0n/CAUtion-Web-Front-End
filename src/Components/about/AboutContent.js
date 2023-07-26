@@ -3,11 +3,10 @@ import './AboutContent_style.css'
 
 const AboutContent = ({props})=>{
     return (
-        <div className={"about_Content_wrapper"}>
+
             <div className={"about_content"}>
-                {props.map}
+                {props}
             </div>
-        </div>
     )
 }
 export default AboutContent

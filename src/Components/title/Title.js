@@ -3,10 +3,9 @@ import './title_style.css'
 
 const Title = ({props})=>{
     return (
-    <div >
-        <p className={"content"}>
+    <div  className={"content"}>
             {props}
-        </p>
+
     </div>
     )
 }
