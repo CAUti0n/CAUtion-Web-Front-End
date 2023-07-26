@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Nav from '../../Components/Nav'
-import styles from './styles/Study.module.css'
+import Title from "../../Components/title/Title";
 
 const Study = () => {
   return (
@@ -9,7 +9,7 @@ const Study = () => {
 
       <Nav />
 
-      <h1>study</h1>
+        <Title props={'Study'}/>
 
     </div>
   )

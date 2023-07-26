@@ -30,8 +30,8 @@
     right: 200px;
     height: inherit;
 
-    display: flex;
-    align-items: center;
+    display: inline-flex;
+    align-items:center;
 }
 .nav_links_container > a {
     display: flex;

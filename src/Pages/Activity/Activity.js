@@ -1,14 +1,14 @@
 import React from 'react'
 
 import Nav from '../../Components/Nav'
+import Title from "../../Components/title/Title";
 
 const Activity = () => {
   return (
     <div>
 
       <Nav />
-
-      <h1>activity</h1>
+        <Title props={'Activity'}/>
 
     </div>
   )

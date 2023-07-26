@@ -1,5 +1,9 @@
-import Nav from "../../Components/Nav";
-import React from "react";
+
+import React from 'react'
+
+import Nav from '../../Components/Nav'
+import Title from "../../Components/title/Title";
+
 
 const Management = () => {
     return (
@@ -7,10 +11,11 @@ const Management = () => {
 
             <Nav />
 
-            <h1>Management</h1>
+            <Title props={'Management'}/>
 
         </div>
     )
 }
+
 
 export default Management

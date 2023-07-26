@@ -10,13 +10,16 @@ import Activity from './Pages/Activity/Activity'
 
 // Components
 import './App.css'
+import Management from "./Pages/Management/Management";
 
 const App = () => {
   return (
     <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+
         <Route path='/management' element={<Management/>}/>
+
         <Route path='/study' element={<Study />} />
         <Route path='/activity' element={<Activity />} />
     </Routes>
