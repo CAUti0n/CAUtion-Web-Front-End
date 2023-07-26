@@ -1,10 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-// Logo image
-// import logo from {process.env.PUBLIC_URL} + '/img/CAUtion_LOGO.png'
-
-// Styles
 import styles from './styles/Nav.module.css'
 
 const Nav = () => {
