@@ -14,10 +14,10 @@ const Nav = () => {
 
       {/* Nav Links */}
       <div className={styles.nav_links_container}>
-          <Link to='/about' >About</Link>
           <Link to='/management'>Management</Link>
           <Link to='/study' >Study</Link>
           <Link to='/activity'>Activity</Link>
+          <Link to='/Recruit'>Recruit</Link>
       </div>
 
     </div>
