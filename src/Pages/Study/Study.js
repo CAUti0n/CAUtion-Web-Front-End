@@ -2,25 +2,38 @@ import React from 'react'
 import Nav from '../../Components/Nav'
 import Title from "../../Components/title/Title";
 import styled from "styled-components";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import StudyCard from "../../Components/card/StudyCard";
+import StudyCard from "../../Components/study/StudyCard";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "../../Components/footer/Footer";
 
 const Wrapper = styled.div`
-  padding-right: 100px;
-  padding-left: 100px;
+  position: relative;
 
+  display: block;
+  justify-content: center;
+  align-content: center;
 `
 const Year = styled.div`
+  display:flex;
   font-size: 35px;
   font-weight: bold;
-  margin : 3px;
+  padding-left: 3px;
+  margin-left:auto;
+  margin-right: auto;
+  width:784px;
+  align-items:initial;
+  justify-content: initial;  
+  
 `
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+  width: 784px;
+  margin-left:auto;
+  margin-right: auto;
+
+  margin-bottom: 100px;
+  
 
 `
 const Study = ({props}) => {
@@ -28,27 +41,27 @@ const Study = ({props}) => {
         <div>
 
             <Nav/>
-            <Title props={'Study'}/>
+            <Title props={'Study'} style={{"margin-bottom":"0px"}}/>
+
             <Wrapper>
-                <Container>
-                    <Row>
-                        <Col xs={1} md={2}></Col>
-                        <Col xs={10} md={8}>
-                            <Year>
-                                2023-1
-                            </Year>
-                            <Cards>
-                                <StudyCard></StudyCard>
-                                <StudyCard></StudyCard>
-                                <StudyCard></StudyCard>
-                                <StudyCard></StudyCard>
-                                <StudyCard></StudyCard>
-                            </Cards>
-                        </Col>
-                        <Col md={2}></Col>
-                    </Row>
-                </Container>
+                <Year>2023-1</Year>
+                <Cards>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                </Cards>
+                <Year>2023-1</Year>
+                <Cards>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                </Cards>
             </Wrapper>
+            <Footer/>
         </div>
     )
 }

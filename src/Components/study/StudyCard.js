@@ -9,6 +9,8 @@ const CardBox=styled.div`
   padding-right: 3px;
   padding-left:3px;
   margin-bottom: 10px;
+  margin-left: 3px;
+  margin-right: 3px;
   
 `
 const StudyTitle=styled.div`
