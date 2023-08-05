@@ -13,6 +13,7 @@ const HallWrapper = styled.div`
   padding-top: 20px;
   padding-bottom: 40px;
   width:100%;
+  margin-top: 150px;
 `
 const TitleWrapper = styled.div`
   color: white;

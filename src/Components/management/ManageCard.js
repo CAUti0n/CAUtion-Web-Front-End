@@ -5,6 +5,7 @@ import gitIcon from "./git.png"
 
 const ManageWrapper = styled.div`
   width: 170px;
+  
   height: 300px;
   padding: 10px;
   justify-content: center;
@@ -13,7 +14,7 @@ const ManageWrapper = styled.div`
 `
 
 const ProfileImg = styled.img`
-  width: 150px;
+  width: 100%;
   border-radius: 10px;
 `
 const PositionWrapper = styled.div`

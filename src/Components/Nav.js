@@ -8,7 +8,7 @@ const NavContainer =styled.div`
     height: 90px;
     left:0px;
     top: 0px;
-
+    width: 100%;
     background-color: #00b992;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 `
@@ -19,6 +19,9 @@ const RecruitBtn = styled.button`
   height: 45px;
   border: none;
   border-radius: 5px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Do Hyeon', sans-serif;
   color: #00b992;
 `
 const LogoContainer=styled.div`
@@ -40,7 +43,7 @@ const NavLinkContainer=styled.div`
 
   display: inline-flex;
   align-items:center;
-  flex-flow : row wrap;
+  justify-content: space-between;
 `
 const NavLink=styled(Link)`
   display: flex;

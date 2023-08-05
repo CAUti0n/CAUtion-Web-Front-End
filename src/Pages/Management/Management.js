@@ -9,10 +9,8 @@ import Footer from '../../Components/footer/Footer';
 
 const Wrapper = styled.div`
   display: flex;
-  
-  width: 630px;
+  width: 640px;
   margin:auto;
-  margin-bottom: 240px;
   flex-flow : row wrap;
 `
 const HallWrapper = styled.div`
