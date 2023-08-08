@@ -80,3 +80,12 @@ h2 {
 
     color: #00B992;
 }
+
+.aboutHover:hover{
+    fill: lightgrey;
+    transition-duration: .2s;
+    width:110%;
+    z-index: 1;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2), 1px 1px 2px rgba(255, 255, 255, 0.1);
+
+}
