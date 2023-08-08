@@ -5,7 +5,7 @@ import styled from "styled-components";
 import StudyCard from "../../Components/study/StudyCard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../../Components/footer/Footer";
-import result from "./study.json";
+import studyAPI from "./study.json";
 
 const Wrapper = styled.div`
   position: relative;
@@ -38,7 +38,9 @@ const Cards = styled.div`
 `;
 
 const Study = ({ props }) => {
-  console.log(result[0]["properties"]["Manager"]["rich_text"][0]["plain_text"]);
+  console.log(
+    studyAPI[0]["properties"]["Manager"]["rich_text"][0]["plain_text"]
+  );
   return (
     <div>
       <Nav />
