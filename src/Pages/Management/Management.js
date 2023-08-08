@@ -33,8 +33,7 @@ const Management = () => {
                 <Wrapper>
                     {/*props.map((e)=> (<ManageCard />))*/}
                     <ManageCard/>
-                    <ManageCard/>
-                    <ManageCard/>
+
                     <ManageCard/>
                 </Wrapper>
 
