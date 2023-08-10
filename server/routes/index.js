@@ -41,14 +41,15 @@ const getNotionApi = async () => {
     "public_url",
   ]);
 
-  const parsingResult = JSON.parse(notionResult);
-  parsingResult.forEach((result) => {
-    console.log(result["properties"]["Manager"]["rich_text"][0]["plain_text"]);
-  });
-
   fs.writeFile("../src/Pages/Study/study.json", notionResult, function (err) {
     console.log("json파일 생성 완료");
   });
+
+  // const parsingResult = JSON.parse(notionResult);
+  // parsingResult.forEach((result) => {
+  //   console.log(result["properties"]["Manager"]["rich_text"][0]["plain_text"]);
+  // });
+
   return notionResult;
 };
 
@@ -69,6 +70,5 @@ app.listen(app.get("port"), () => {
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  // res.render("index", { title: "Test", content: getNotionApi() });
   res.render("index", { title: "Test", content: getNotionApi() });
 });
