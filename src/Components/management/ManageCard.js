@@ -9,7 +9,8 @@ const ManageWrapper = styled.div`
   height: 300px;
   padding: 10px;
   justify-content: center;
-  margin:20px;
+  margin:25px;
+
   border-radius: 7px;
   &:hover{
     box-shadow: 0px 2px 3px 4px lightgray;
@@ -22,17 +23,20 @@ const ProfileImg = styled.img`
   border-radius: 10px;
 `
 const PositionWrapper = styled.div`
+  height: 25px;
   font-size: 22px;
   text-align: center;
   justify-content: center;
   font-family: 'Do Hyeon', sans-serif;
 `
 const NameWrapper = styled.div`
+  
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 2px;
   text-align: center;
   font-family: 'Do Hyeon', sans-serif;
+  
 `
 const GitImg = styled.img`
   width: 30px;
