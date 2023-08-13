@@ -1,1 +1,737 @@
-[{"properties":{"Manager":{"rich_text":[{"plain_text":"강명석"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/504490cb-f16d-443b-856b-91ec6fa109a4/2023-S_Webhell.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=a58bd10451a7f0811c6029405fad74f6afd2f3990eed60c864f0286fc0f2057a&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2023-06-29","end":null}},"Name":{"title":[{"plain_text":"2023-S: WebHell Study"}]}},"url":"https://www.notion.so/2023-S-WebHell-Study-ae2e14f998214e2292b9a818ba8a92b8","public_url":"https://caution.notion.site/2023-S-WebHell-Study-ae2e14f998214e2292b9a818ba8a92b8"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김하람"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab282528-40ec-4cd4-b180-e6182aa862bd/2023-1_Webhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=326b33412d416907717fd1f1e5e043a89e6627df22fb369edad0de532d8e3608&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2023-03-16","end":"2023-05-17"}},"Name":{"title":[{"plain_text":"2023-1: Web Hacking Basic"}]}},"url":"https://www.notion.so/2023-1-Web-Hacking-Basic-81318a663b224fc89ab7d10b1b0026cd","public_url":"https://caution.notion.site/2023-1-Web-Hacking-Basic-81318a663b224fc89ab7d10b1b0026cd"},{"properties":{"Manager":{"rich_text":[{"plain_text":"이교현"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f7096ef-e88e-48d7-9d27-da8efac95a42/2023-1_Welcome_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=8e9b520d56c54d7b52cc8e18747ae9f0a5a5a64233834aa644903ddcf138bc84&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2023-03-16","end":"2023-06-07"}},"Name":{"title":[{"plain_text":"2023-1: Welcome Study - 2조"}]}},"url":"https://www.notion.so/2023-1-Welcome-Study-2-59cd2f3b4d654df29727325f6da386c2","public_url":"https://caution.notion.site/2023-1-Welcome-Study-2-59cd2f3b4d654df29727325f6da386c2"},{"properties":{"Manager":{"rich_text":[{"plain_text":"정소은"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/43f4f970-2668-40bc-b4e2-17fa459b7d26/2023-1_Welcom_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=75df9130889eccf3b22205ebf588327ea33bce11892b05639ec7827853d0469d&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2023-03-16","end":"2023-06-07"}},"Name":{"title":[{"plain_text":"2023-1: Welcome Study - 1조"}]}},"url":"https://www.notion.so/2023-1-Welcome-Study-1-ed638968d8b248b0acb34503c8ae219e","public_url":"https://caution.notion.site/2023-1-Welcome-Study-1-ed638968d8b248b0acb34503c8ae219e"},{"properties":{"Manager":{"rich_text":[{"plain_text":"주찬형"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ed920967-1e52-4ea8-b53e-e34e8c9b961e/2023-1_Pwnable.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=1dc319711c464bfbc45e242b39271fc7ea83118b3f0b8fcb0ff67b09d4ec3750&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2023-03-16","end":"2023-06-07"}},"Name":{"title":[{"plain_text":"2023-1: Pwnable Study"}]}},"url":"https://www.notion.so/2023-1-Pwnable-Study-d48fa08f96fb49af934f8b72f86743fc","public_url":"https://caution.notion.site/2023-1-Pwnable-Study-d48fa08f96fb49af934f8b72f86743fc"},{"properties":{"Manager":{"rich_text":[{"plain_text":"djnn"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ac887147-3094-43bc-a607-6c8cb5126f9c/2023-1_HTB.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=3a795a03bf293b8f4f6bc51a494fff442709af4ac06681e6f25d6a1afc81dd65&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2023-03-16","end":"2023-06-07"}},"Name":{"title":[{"plain_text":"2023-1: HackTheBox Study"}]}},"url":"https://www.notion.so/2023-1-HackTheBox-Study-6ba6ac4a5bee4dd6baadf6eb17d01361","public_url":"https://caution.notion.site/2023-1-HackTheBox-Study-6ba6ac4a5bee4dd6baadf6eb17d01361"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김도엽"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cf5090b7-f830-4f71-ac82-5172911edc18/2022-W_LLL.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=58e14305f0ddd5ae2d6b66b7a411ead3e248cce7bc01ddb98598b59bc80c88ff&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2023-01-09","end":"2023-02-26"}},"Name":{"title":[{"plain_text":"2022-W: LLL 알고리즘 스터디"}]}},"url":"https://www.notion.so/2022-W-LLL-dfb8d699a14c4737bda99172f4285807","public_url":"https://caution.notion.site/2022-W-LLL-dfb8d699a14c4737bda99172f4285807"},{"properties":{"Manager":{"rich_text":[{"plain_text":"강필중"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8862d7bc-fb8a-4913-811e-15187b6a692b/2022-W_BOB.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=24541c93038e30ad13949d9f96d87a4138e484757708222c1a2ce75e4066c14c&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2023-01-09","end":"2023-02-26"}},"Name":{"title":[{"plain_text":"2022-W: BoB 대비 스터디"}]}},"url":"https://www.notion.so/2022-W-BoB-c40a964c065143b39d79b93c80d9650d","public_url":"https://caution.notion.site/2022-W-BoB-c40a964c065143b39d79b93c80d9650d"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김도엽"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6fc9db13-7902-4c90-b88c-cbc369e90707/2022-2_%E1%84%8B%E1%85%A1%E1%86%B7%E1%84%92%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=4914f374587e1b1cda1a04b76032fcfa870c8f1b541719ba8244aeebf2e411f7&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-09-08","end":"2022-12-14"}},"Name":{"title":[{"plain_text":"2022-2: 기초 암호학 스터디"}]}},"url":"https://www.notion.so/2022-2-2f4cb0cb4bc2401f8a40da34e45fb57c","public_url":"https://caution.notion.site/2022-2-2f4cb0cb4bc2401f8a40da34e45fb57c"},{"properties":{"Manager":{"rich_text":[{"plain_text":"강명석"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2bb5008b-7927-4127-954a-6418015774b6/2022-2_%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B4%E1%84%92%E1%85%A2%E1%84%8F%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=10c3d869477c12aada6b790d4477ff80baa269ab312178b669904ecb48037f7a&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-09-08","end":"2022-12-14"}},"Name":{"title":[{"plain_text":"2022-2: 모의해킹 스터디"}]}},"url":"https://www.notion.so/2022-2-747db009db8d4f4aa52bb8a58b079d7b","public_url":"https://caution.notion.site/2022-2-747db009db8d4f4aa52bb8a58b079d7b"},{"properties":{"Manager":{"rich_text":[{"plain_text":"이교현"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e31804a0-cb1a-493e-8f43-3422d1e6fcd3/2022-2_Welcom_1%E1%84%8C%E1%85%A9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=da8a5a944afe47e78d194202345b7af0ba9179db02f91453e2e76209bf3a86dd&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-09-08","end":"2022-12-14"}},"Name":{"title":[{"plain_text":"2022-2: Welcome Study - 1조"}]}},"url":"https://www.notion.so/2022-2-Welcome-Study-1-cc56da21fdb8454c8fc584a361aa5937","public_url":"https://caution.notion.site/2022-2-Welcome-Study-1-cc56da21fdb8454c8fc584a361aa5937"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김도엽"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/69c56e8e-066b-4ea4-bc13-472874b39640/2022-2_Reversing.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=59098a4ad6d4a24d2f3387649bedf37559eb01d488fd51177d7b82b81210701a&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-09-08","end":"2022-12-14"}},"Name":{"title":[{"plain_text":"2022-2: Reversing Study"}]}},"url":"https://www.notion.so/2022-2-Reversing-Study-a4e26b9351ba4ddf86826a03d7e99308","public_url":"https://caution.notion.site/2022-2-Reversing-Study-a4e26b9351ba4ddf86826a03d7e99308"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김성수"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d85b73ab-4b37-4fc8-938d-3523951f8034/2022-2_Webhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=02eadfc1b2f99df629ce19627a1c3e2dde381b7fd52bc7e57d51337ecc5dca6d&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-09-08","end":"2022-12-14"}},"Name":{"title":[{"plain_text":"2022-2: Web Hacking Study"}]}},"url":"https://www.notion.so/2022-2-Web-Hacking-Study-f13295d9add04c4486fc55c84cd92f0c","public_url":"https://caution.notion.site/2022-2-Web-Hacking-Study-f13295d9add04c4486fc55c84cd92f0c"},{"properties":{"Manager":{"rich_text":[{"plain_text":"강명석"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7eb0b4f1-cad5-4b65-9b6d-6a502c04c417/2022-S_WebHell.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=7b448113fadb66cb07eee5e8111146699a265cd34f5a13b2206ed034633c29e2&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-07-01","end":"2022-08-28"}},"Name":{"title":[{"plain_text":"2022-S: Web-Hell Study"}]}},"url":"https://www.notion.so/2022-S-Web-Hell-Study-1c572da466e84133b384630c18b81e91","public_url":"https://caution.notion.site/2022-S-Web-Hell-Study-1c572da466e84133b384630c18b81e91"},{"properties":{"Manager":{"rich_text":[{"plain_text":"정소은"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/959cfad4-2b68-4cef-84c9-79c0e1bba229/2022-2_Welcome_2%E1%84%8C%E1%85%A9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=861b704f7bb5b9e855b52302aaf4324ea514fa69659d42b5d46acc6a5b9f4125&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-09-08","end":"2022-12-14"}},"Name":{"title":[{"plain_text":"2022-2: Welcome Study - 2조"}]}},"url":"https://www.notion.so/2022-2-Welcome-Study-2-4c70e3859d0d4216a0343baef773d743","public_url":"https://caution.notion.site/2022-2-Welcome-Study-2-4c70e3859d0d4216a0343baef773d743"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김하람"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ac8fdb81-ccc1-4982-bef9-51e03224f3ae/2022-S_Systemhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=4b3c8fb96d04749cab6507f108adc6b4acd6a9f6b8b3e58b80cefc470f86d30c&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-07-01","end":"2022-08-28"}},"Name":{"title":[{"plain_text":"2022-S: System Hacking Study"}]}},"url":"https://www.notion.so/2022-S-System-Hacking-Study-56f9e93972d84c09bd30d2f261c3f232","public_url":"https://caution.notion.site/2022-S-System-Hacking-Study-56f9e93972d84c09bd30d2f261c3f232"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김여진"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5246d6b9-2d2c-4fbf-b5f2-717a72dad09c/2022-2_Systemhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=abbe4ccf66427e37e1247d224fe4bd4bc5345a56969807d2af76697813059f48&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-09-08","end":"2022-12-14"}},"Name":{"title":[{"plain_text":"2022-2: System Hacking Study"}]}},"url":"https://www.notion.so/2022-2-System-Hacking-Study-7b15622d164f4ee090270bc6002f2a63","public_url":"https://caution.notion.site/2022-2-System-Hacking-Study-7b15622d164f4ee090270bc6002f2a63"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김하람"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fa42ae15-215b-40e0-9467-354489bf3859/Welcome.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=f40ce03562815b3d32a72774d26c9b6601eebd18eec6559e98e089b76c0e4bf3&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-03-14","end":"2022-06-13"}},"Name":{"title":[{"plain_text":"2022-1:Welcome Study"}]}},"url":"https://www.notion.so/2022-1-Welcome-Study-93087b9cedd4450cb3575d9f18304a15","public_url":"https://caution.notion.site/2022-1-Welcome-Study-93087b9cedd4450cb3575d9f18304a15"},{"properties":{"Manager":{"rich_text":[{"plain_text":"한유진"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1166ac56-0e20-4108-9b4e-e27154f2ae38/2022-S_Wargame.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=eebf5023938aeb2aadf116b87df09392cf6292065d5b8eb47d0a7870eb2399b6&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-07-01","end":"2022-08-28"}},"Name":{"title":[{"plain_text":"2022-S: Wargame Study"}]}},"url":"https://www.notion.so/2022-S-Wargame-Study-a576489c4e2a41e69c76ebb389ce7198","public_url":"https://caution.notion.site/2022-S-Wargame-Study-a576489c4e2a41e69c76ebb389ce7198"},{"properties":{"Manager":{"rich_text":[{"plain_text":"이건"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a7d9382a-893e-4229-8ee5-4806cf668d49/2022-S_Webhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=ebde9764cf420b9e5a2aea38280da27414362f72f70e80c3e8a8e98a00f567c3&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-07-01","end":"2022-08-28"}},"Name":{"title":[{"plain_text":"2022-S: Web Hacking Study"}]}},"url":"https://www.notion.so/2022-S-Web-Hacking-Study-ae20474561a14abeafdf7f5562460cb0","public_url":"https://caution.notion.site/2022-S-Web-Hacking-Study-ae20474561a14abeafdf7f5562460cb0"},{"properties":{"Manager":{"rich_text":[{"plain_text":"김하람"}]},"Image":{"files":[{"file":{"url":"https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9aa8a537-a6b4-4b69-bd22-664d6f2c6977/Wargame.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230808%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230808T114406Z&X-Amz-Expires=3600&X-Amz-Signature=997677220f3735cb9bdf632cb8d029078a4d5e2b7dfcf85b13ab387eedeffaa8&X-Amz-SignedHeaders=host&x-id=GetObject"}}]},"Date":{"date":{"start":"2022-03-16","end":"2022-06-08"}},"Name":{"title":[{"plain_text":"2022-1:Wargame Study"}]}},"url":"https://www.notion.so/2022-1-Wargame-Study-73cb63d31f9249118a5206ed5fc1fc09","public_url":"https://caution.notion.site/2022-1-Wargame-Study-73cb63d31f9249118a5206ed5fc1fc09"}]
+[
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "강명석"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/504490cb-f16d-443b-856b-91ec6fa109a4/2023-S_Webhell.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=e20b84464d6afe0e51c195a9147ee57fa7769b4439a63bbd588e1b39036c60d9&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2023-06-29",
+          "end": null
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2023-S: WebHell Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2023-S-WebHell-Study-ae2e14f998214e2292b9a818ba8a92b8",
+    "public_url": "https://caution.notion.site/2023-S-WebHell-Study-ae2e14f998214e2292b9a818ba8a92b8"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김하람"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab282528-40ec-4cd4-b180-e6182aa862bd/2023-1_Webhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=0b39e7ac018080264f46ab8f1d06f6447112b6f565f7d54703f16d8170fba255&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2023-03-16",
+          "end": "2023-05-17"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2023-1: Web Hacking Basic"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2023-1-Web-Hacking-Basic-81318a663b224fc89ab7d10b1b0026cd",
+    "public_url": "https://caution.notion.site/2023-1-Web-Hacking-Basic-81318a663b224fc89ab7d10b1b0026cd"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "이교현"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/4f7096ef-e88e-48d7-9d27-da8efac95a42/2023-1_Welcome_2.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=f4ba79b308da3bd80977f9c33c9ef5070361ddcd3c2014ea549ad4c8eb99fb1b&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2023-03-16",
+          "end": "2023-06-07"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2023-1: Welcome Study - 2조"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2023-1-Welcome-Study-2-59cd2f3b4d654df29727325f6da386c2",
+    "public_url": "https://caution.notion.site/2023-1-Welcome-Study-2-59cd2f3b4d654df29727325f6da386c2"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "정소은"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/43f4f970-2668-40bc-b4e2-17fa459b7d26/2023-1_Welcom_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=7c2bc6500334ad3035f39ddb95e023496714517190491c30730b69227e37ef6b&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2023-03-16",
+          "end": "2023-06-07"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2023-1: Welcome Study - 1조"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2023-1-Welcome-Study-1-ed638968d8b248b0acb34503c8ae219e",
+    "public_url": "https://caution.notion.site/2023-1-Welcome-Study-1-ed638968d8b248b0acb34503c8ae219e"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "주찬형"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ed920967-1e52-4ea8-b53e-e34e8c9b961e/2023-1_Pwnable.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=de89070d6f9670f6db8df3db91fbb85dd67a81d004bf4b2460164583dea332b2&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2023-03-16",
+          "end": "2023-06-07"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2023-1: Pwnable Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2023-1-Pwnable-Study-d48fa08f96fb49af934f8b72f86743fc",
+    "public_url": "https://caution.notion.site/2023-1-Pwnable-Study-d48fa08f96fb49af934f8b72f86743fc"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "djnn"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ac887147-3094-43bc-a607-6c8cb5126f9c/2023-1_HTB.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=0be81753297ec88355eecedc4b6fbd27e553f41314510566d1d0de9fdcdca626&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2023-03-16",
+          "end": "2023-06-07"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2023-1: HackTheBox Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2023-1-HackTheBox-Study-6ba6ac4a5bee4dd6baadf6eb17d01361",
+    "public_url": "https://caution.notion.site/2023-1-HackTheBox-Study-6ba6ac4a5bee4dd6baadf6eb17d01361"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김도엽"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/cf5090b7-f830-4f71-ac82-5172911edc18/2022-W_LLL.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=5402f45b437216a5a7bb1914c94d9ad78989a1a7037c23e0fc6111ba10cae070&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2023-01-09",
+          "end": "2023-02-26"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-W: LLL 알고리즘 스터디"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-W-LLL-dfb8d699a14c4737bda99172f4285807",
+    "public_url": "https://caution.notion.site/2022-W-LLL-dfb8d699a14c4737bda99172f4285807"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "강필중"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8862d7bc-fb8a-4913-811e-15187b6a692b/2022-W_BOB.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=c6033acf64b5a0eb0cc277574959dd73d7e82128d8bfcc70398e287450a49735&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2023-01-09",
+          "end": "2023-02-26"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-W: BoB 대비 스터디"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-W-BoB-c40a964c065143b39d79b93c80d9650d",
+    "public_url": "https://caution.notion.site/2022-W-BoB-c40a964c065143b39d79b93c80d9650d"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김도엽"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/6fc9db13-7902-4c90-b88c-cbc369e90707/2022-2_%E1%84%8B%E1%85%A1%E1%86%B7%E1%84%92%E1%85%A9%E1%84%92%E1%85%A1%E1%86%A8%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=9987abad671b2088c942caafa409a51d55129373a77a8086f57ccf5b30a1904d&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-09-08",
+          "end": "2022-12-14"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-2: 기초 암호학 스터디"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-2-2f4cb0cb4bc2401f8a40da34e45fb57c",
+    "public_url": "https://caution.notion.site/2022-2-2f4cb0cb4bc2401f8a40da34e45fb57c"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "강명석"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2bb5008b-7927-4127-954a-6418015774b6/2022-2_%E1%84%86%E1%85%A9%E1%84%8B%E1%85%B4%E1%84%92%E1%85%A2%E1%84%8F%E1%85%B5%E1%86%BC%E1%84%89%E1%85%B3%E1%84%90%E1%85%A5%E1%84%83%E1%85%B5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=1c3ca255c2604e650ae365260b20c2d30ec505f7340d7b5e4369853ed31fd522&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-09-08",
+          "end": "2022-12-14"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-2: 모의해킹 스터디"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-2-747db009db8d4f4aa52bb8a58b079d7b",
+    "public_url": "https://caution.notion.site/2022-2-747db009db8d4f4aa52bb8a58b079d7b"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "이교현"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e31804a0-cb1a-493e-8f43-3422d1e6fcd3/2022-2_Welcom_1%E1%84%8C%E1%85%A9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=83c3770c1111205c31228d129f12a8638099f85af555521371017d5e8bb0b3f6&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-09-08",
+          "end": "2022-12-14"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-2: Welcome Study - 1조"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-2-Welcome-Study-1-cc56da21fdb8454c8fc584a361aa5937",
+    "public_url": "https://caution.notion.site/2022-2-Welcome-Study-1-cc56da21fdb8454c8fc584a361aa5937"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김도엽"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/69c56e8e-066b-4ea4-bc13-472874b39640/2022-2_Reversing.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=634e633d6885d40eac1b5b504477e5ec41dc9a803723bd35e4acda979c8307b7&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-09-08",
+          "end": "2022-12-14"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-2: Reversing Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-2-Reversing-Study-a4e26b9351ba4ddf86826a03d7e99308",
+    "public_url": "https://caution.notion.site/2022-2-Reversing-Study-a4e26b9351ba4ddf86826a03d7e99308"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김성수"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d85b73ab-4b37-4fc8-938d-3523951f8034/2022-2_Webhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=2ec6be7081af80c4800753ec015d4871b38297dd6e05ff9577da35d9c3e21749&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-09-08",
+          "end": "2022-12-14"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-2: Web Hacking Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-2-Web-Hacking-Study-f13295d9add04c4486fc55c84cd92f0c",
+    "public_url": "https://caution.notion.site/2022-2-Web-Hacking-Study-f13295d9add04c4486fc55c84cd92f0c"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "강명석"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/7eb0b4f1-cad5-4b65-9b6d-6a502c04c417/2022-S_WebHell.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=a1a01faa8d3d7ad982055d38b91c46dcbb0bcd33b45b1c6bb2588a57da4440ba&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-07-01",
+          "end": "2022-08-28"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-S: Web-Hell Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-S-Web-Hell-Study-1c572da466e84133b384630c18b81e91",
+    "public_url": "https://caution.notion.site/2022-S-Web-Hell-Study-1c572da466e84133b384630c18b81e91"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "정소은"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/959cfad4-2b68-4cef-84c9-79c0e1bba229/2022-2_Welcome_2%E1%84%8C%E1%85%A9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=95c97766520525be8ac8e62128eb1a2ff152517abf83f327169fcd99e608c324&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-09-08",
+          "end": "2022-12-14"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-2: Welcome Study - 2조"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-2-Welcome-Study-2-4c70e3859d0d4216a0343baef773d743",
+    "public_url": "https://caution.notion.site/2022-2-Welcome-Study-2-4c70e3859d0d4216a0343baef773d743"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김하람"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ac8fdb81-ccc1-4982-bef9-51e03224f3ae/2022-S_Systemhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=ba6c4ab84e13beec865c7438f5ca679800c362d8072773aa83b62d863371a6fb&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-07-01",
+          "end": "2022-08-28"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-S: System Hacking Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-S-System-Hacking-Study-56f9e93972d84c09bd30d2f261c3f232",
+    "public_url": "https://caution.notion.site/2022-S-System-Hacking-Study-56f9e93972d84c09bd30d2f261c3f232"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김여진"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5246d6b9-2d2c-4fbf-b5f2-717a72dad09c/2022-2_Systemhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=d050ffe0fbe5b9729a1ded2a16787ce952d321d64a428fc5c1bebccd9cdeaa48&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-09-08",
+          "end": "2022-12-14"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-2: System Hacking Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-2-System-Hacking-Study-7b15622d164f4ee090270bc6002f2a63",
+    "public_url": "https://caution.notion.site/2022-2-System-Hacking-Study-7b15622d164f4ee090270bc6002f2a63"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김하람"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/fa42ae15-215b-40e0-9467-354489bf3859/Welcome.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=67902a2be57d100678936bf7244b7853efeea213a7d92cbf55027072d37f6a84&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-03-14",
+          "end": "2022-06-13"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-1: Welcome Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-1-Welcome-Study-93087b9cedd4450cb3575d9f18304a15",
+    "public_url": "https://caution.notion.site/2022-1-Welcome-Study-93087b9cedd4450cb3575d9f18304a15"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "한유진"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/1166ac56-0e20-4108-9b4e-e27154f2ae38/2022-S_Wargame.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=32e742757d0e08dcc665c98fb6b47797880a5a94d8bf1ecca3b093545856b650&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-07-01",
+          "end": "2022-08-28"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-S: Wargame Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-S-Wargame-Study-a576489c4e2a41e69c76ebb389ce7198",
+    "public_url": "https://caution.notion.site/2022-S-Wargame-Study-a576489c4e2a41e69c76ebb389ce7198"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "이건"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a7d9382a-893e-4229-8ee5-4806cf668d49/2022-S_Webhacking.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=ac3423d3d899b98e3a170d9374851d744a0c2a79bbdfeb7689e6f85479ab4821&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-07-01",
+          "end": "2022-08-28"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-S: Web Hacking Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-S-Web-Hacking-Study-ae20474561a14abeafdf7f5562460cb0",
+    "public_url": "https://caution.notion.site/2022-S-Web-Hacking-Study-ae20474561a14abeafdf7f5562460cb0"
+  },
+  {
+    "properties": {
+      "Manager": {
+        "rich_text": [
+          {
+            "plain_text": "김하람"
+          }
+        ]
+      },
+      "Image": {
+        "files": [
+          {
+            "file": {
+              "url": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9aa8a537-a6b4-4b69-bd22-664d6f2c6977/Wargame.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230812%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230812T115226Z&X-Amz-Expires=3600&X-Amz-Signature=cc7c05da9407d47e4abf5b335ffaa9e399ba18c6f69e458fe2afe90284d310b2&X-Amz-SignedHeaders=host&x-id=GetObject"
+            }
+          }
+        ]
+      },
+      "Date": {
+        "date": {
+          "start": "2022-03-16",
+          "end": "2022-06-08"
+        }
+      },
+      "Name": {
+        "title": [
+          {
+            "plain_text": "2022-1: Wargame Study"
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/2022-1-Wargame-Study-73cb63d31f9249118a5206ed5fc1fc09",
+    "public_url": "https://caution.notion.site/2022-1-Wargame-Study-73cb63d31f9249118a5206ed5fc1fc09"
+  }
+]

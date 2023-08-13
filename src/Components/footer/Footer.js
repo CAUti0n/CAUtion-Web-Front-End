@@ -9,12 +9,13 @@ import {SlLocationPin, SlEnvolope} from "react-icons/sl";
 import {SiGithub} from "react-icons/si";
 
 const HallWrapper = styled.div`
+  height: 220px;
   background-color: #00b992;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 40px;
   width:100%;
-  margin-top: 400px;
-  
+  margin-top:200px;
+ 
 `
 const TitleWrapper = styled.div`
   color: white;
