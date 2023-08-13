@@ -19,6 +19,7 @@ import ActivityPage3 from "./page3";
 const Wrapper = styled.div`
   padding-right: 100px;
   padding-left: 100px;
+  min-height: calc(80vh - 160px);
 `
 
 

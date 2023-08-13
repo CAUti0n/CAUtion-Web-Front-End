@@ -9,7 +9,7 @@ import Footer from '../../Components/footer/Footer';
 
 const Wrapper = styled.div`
   display: flex;
-  width: 640px;
+  width: 800px;
   margin:auto;
   flex-flow : row wrap;
 `
@@ -18,6 +18,7 @@ const HallWrapper = styled.div`
   align-items: center;
 
   justify-content: center;
+  min-height: calc(80vh - 160px);
 `
 
 
@@ -32,6 +33,9 @@ const Management = () => {
 
                 <Wrapper>
                     {/*props.map((e)=> (<ManageCard />))*/}
+                    <ManageCard/>
+
+                    <ManageCard/>
                     <ManageCard/>
 
                     <ManageCard/>

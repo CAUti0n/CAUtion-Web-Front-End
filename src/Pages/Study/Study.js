@@ -13,6 +13,7 @@ const Wrapper = styled.div`
   display: block;
   justify-content: center;
   align-content: center;
+  min-height: calc(80vh - 160px);
 `;
 
 const Year = styled.div`
@@ -25,46 +26,64 @@ const Year = styled.div`
   width: 784px;
   align-items: initial;
   justify-content: initial;
+  margin-top: 40px;
+  color: #559E8E;
+
+  border-bottom: 3px double #559E8E;
+  
 `;
 
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 784px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
 
   margin-bottom: 100px;
 `;
 
-const Study = ({ props }) => {
-  console.log(
-    studyAPI[0]["properties"]["Manager"]["rich_text"][0]["plain_text"]
-  );
-  return (
-    <div>
-      <Nav />
-      <Title props={"Study"} style={{ "margin-bottom": "0px" }} />
-      <Wrapper>
-        <Year>2023-1</Year>
-        <Cards>
-          <StudyCard></StudyCard>
-          <StudyCard></StudyCard>
-          <StudyCard></StudyCard>
-          <StudyCard></StudyCard>
-        </Cards>
-        <Year>2023-1</Year>
-        <Cards>
-          <StudyCard></StudyCard>
-          <StudyCard></StudyCard>
-          <StudyCard></StudyCard>
-          <StudyCard></StudyCard>
-          <StudyCard></StudyCard>
-        </Cards>
-      </Wrapper>
-      <Footer />
-    </div>
-  );
+
+const Study = ({props}) => {
+
+
+    function StudyRepeat() {
+        const studyYear = {year: "0"};
+        let studyArray = [];
+        for (let i = 0; i < studyAPI.length; i++) {
+            {
+                {
+                    studyYear.year === studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(0, 6) ?
+                        studyArray.push() : studyArray.push(
+                            <Year>{studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(0, 6)}
+                            </Year>)
+                }
+                {
+                    studyYear.year === studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(0, 6) ?
+                        studyArray.push() : studyYear.year = studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(0, 6)
+                }
+            }
+            studyArray.push(<StudyCard
+                studyTitle={studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(8)}
+                mentor={studyAPI[i]["properties"]["Manager"]["rich_text"][0]["plain_text"]}
+
+                url={studyAPI[i]["url"]}></StudyCard>);
+        }
+        return studyArray;
+    }
+
+    return (
+        <div>
+            <Nav/>
+            <Title props={"Study"} style={{"margin-bottom": "0px"}}/>
+            <Wrapper>
+                <Cards>
+                    {StudyRepeat()}
+                </Cards>
+            </Wrapper>
+            <Footer/>
+        </div>
+    );
 };
 
 export default Study;
