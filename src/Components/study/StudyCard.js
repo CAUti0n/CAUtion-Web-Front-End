@@ -18,10 +18,12 @@ const CardBox = styled.div`
   }
 `;
 const StudyTitle = styled.div`
+  height: 54px;
   font-weight: bold;
   font-size: 18px;
   padding-left: 5px;
   padding-right: 5px;
+  vertical-align: middle;
   color: black;
 !important
 `;
