@@ -25,8 +25,9 @@
 .text {
     font-family: 'Montserrat';
     font-style: normal;
-    
-    margin: 10px;
+    font-size: 20px;
+    margin: 30px;
+    text-align: center;
 }
 
 .main_img {
@@ -71,6 +72,8 @@
 }
 
 h2 {
+    margin-left:20px;
+    color: #00B992 ;
     font-weight: 700;
     font-size: 30px;
     line-height: 20px;
@@ -78,7 +81,7 @@ h2 {
 
     letter-spacing: 0.2px;
 
-    color: #00B992;
+
 }
 
 .aboutHover:hover{
