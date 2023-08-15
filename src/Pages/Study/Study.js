@@ -5,7 +5,7 @@ import styled from "styled-components";
 import StudyCard from "../../Components/study/StudyCard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../../Components/footer/Footer";
-import studyAPI from "./study.json";
+
 
 const Wrapper = styled.div`
   position: relative;
@@ -30,7 +30,7 @@ const Year = styled.div`
   color: #559E8E;
 
   border-bottom: 3px double #559E8E;
-  
+
 `;
 
 const Cards = styled.div`
@@ -50,7 +50,7 @@ const Study = ({props}) => {
     function StudyRepeat() {
         const studyYear = {year: "0"};
         let studyArray = [];
-        for (let i = 0; i < studyAPI.length; i++) {
+        {/*for (let i = 0; i < studyAPI.length; i++) {
             {
                 {
                     studyYear.year === studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(0, 6) ?
@@ -62,12 +62,10 @@ const Study = ({props}) => {
                     studyYear.year === studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(0, 6) ?
                         studyArray.push() : studyYear.year = studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(0, 6)
                 }
-            }
+            }<Year>2023-1</Year>
             studyArray.push(<StudyCard
-                studyTitle={studyAPI[i]["properties"]["Name"]["title"][0]["plain_text"].substring(8)}
-                mentor={studyAPI[i]["properties"]["Manager"]["rich_text"][0]["plain_text"]}
-
-                url={studyAPI[i]["url"]}></StudyCard>);
+               ></StudyCard>);
+        */
         }
         return studyArray;
     }
@@ -78,7 +76,12 @@ const Study = ({props}) => {
             <Title props={"Study"} style={{"margin-bottom": "0px"}}/>
             <Wrapper>
                 <Cards>
-                    {StudyRepeat()}
+                    <Year>2023-1</Year>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
+                    <StudyCard></StudyCard>
                 </Cards>
             </Wrapper>
             <Footer/>
