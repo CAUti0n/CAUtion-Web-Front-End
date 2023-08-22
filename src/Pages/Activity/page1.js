@@ -19,26 +19,28 @@ const Wrapper = styled.div`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
-
+  justify-content: space-between;
+  margin: 0 -0px;
 `
 const activities = [
     {
         id: 1,
         imageSrc: '/img/sample_1.png',
         name: 'DEVIEW CAMPUS 2023',
-        date: '2023-08-10',
+        startDate: '2023-08-10',
+        endDate: '2023-08-15',
     },
     {
         id: 2,
         imageSrc: '/img/sample_2.png',
         name: 'DEVIEW CAMPUS 2023',
-        date: '2023-08-15',
+        startDate: '2023-08-15',
     },
     {
         id: 3,
         imageSrc: '/img/sample_3.png',
         name: '한강 나들이',
-        date: '2023-08-15',
+        endDate: '2023-08-15',
     },
     {
         id: 4,
@@ -65,7 +67,8 @@ const ActivityPage1 = () => {
                                         <ActivityItem
                                             imageSrc={activity.imageSrc}
                                             name={activity.name}
-                                            date={activity.date}
+                                            startDate={activity.startDate}
+                                            endDate={activity.endDate}
                                         />
                                     </div>
                                 ))}
