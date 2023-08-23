@@ -88,7 +88,7 @@ const About = () => {
                 </HexagonWrapper>
             </HexagonRow>
             <HexagonRow>
-                <HexagonWrapper style={{"margin-left":"-215px","margin-top": "0px", "margin-bottom": "-40px","background":"#EAF9AF"}}>
+                <HexagonWrapper style={{"margin-left":"-205px","margin-top": "0px", "margin-bottom": "-40px","background":"#EAF9AF"}}>
                     <Content>CTF개최</Content>
                 </HexagonWrapper>
                 <HexagonWrapper style={{"margin-top": "0px", "margin-bottom": "-40px","background":"#F9E4AF"}}>
