@@ -19,12 +19,12 @@ const HexagonRow = styled.div`
 
 const HexagonWrapper = styled.div`
   position: relative;
-  width: 200px;
+  width: 187px;
   height: 200px;
 
   margin: 5px; /* 각 육각형 간의 간격 조절 */
   clip-path: polygon(
-          50% 0%,
+          50%  0%,
           100% 25%,
           100% 75%,
           50% 100%,
@@ -63,7 +63,7 @@ const About = () => {
             <HexagonRow>
                 <HexagonWrapper
 
-                    style={{"margin-left":"215px","margin-bottom":"-40px","background":"#D0B9E7"}}
+                    style={{"margin-left":"205px","margin-bottom":"-40px","background":"#D0B9E7"}}
                 >
                     <Content>Welcome<br/>study</Content>
                 </HexagonWrapper>
@@ -72,7 +72,7 @@ const About = () => {
                 <HexagonWrapper  style={{"margin-top":"0px","margin-bottom":"-40px","background":"#A5E0F9" }}>
                     <Content style={{"font-size":"22px"}}>내.외부 보안<br/> 컨퍼런스<br/>및<br/> 세미나 참여</Content>
                 </HexagonWrapper>
-                <HexagonWrapper  style={{"margin-top":"0px","margin-bottom":"-40px","background":"#A5BDF9"}}>
+                <HexagonWrapper  style={{"margin-top":"0px","margin-left":"8px","margin-right":"8px","margin-bottom":"-40px","background":"#A5BDF9"}}>
                     <Content>다양한 스터디</Content>
                 </HexagonWrapper >
                 <HexagonWrapper  style={{"margin-top":"0px","margin-bottom":"-40px","background":"#FEBFBF"}}>
@@ -80,18 +80,18 @@ const About = () => {
                 </HexagonWrapper>
             </HexagonRow>
             <HexagonRow>
-                <HexagonWrapper style={{ "margin-left":"-415px","margin-top": "0px", "margin-bottom": "-40px","background":"#D2E6B9"}}>
+                <HexagonWrapper style={{ "margin-left":"-395px","margin-top": "0px", "margin-bottom": "-40px","background":"#D2E6B9"}}>
                     <Content>CTF 및<br/>Wargame<br/>문제풀이</Content>
                 </HexagonWrapper>
-                <HexagonWrapper style={{"margin-top": "0px", "margin-bottom": "-40px","background":"#FDFBC0"}}>
+                <HexagonWrapper style={{"margin-top": "0px", "margin-left":"8px","margin-bottom": "-40px","background":"#FDFBC0"}}>
                     <Content>활동</Content>
                 </HexagonWrapper>
             </HexagonRow>
             <HexagonRow>
-                <HexagonWrapper style={{"margin-left":"-205px","margin-top": "0px", "margin-bottom": "-40px","background":"#EAF9AF"}}>
+                <HexagonWrapper style={{"margin-left":"-194px","margin-top": "0px", "margin-bottom": "-40px","background":"#EAF9AF"}}>
                     <Content>CTF개최</Content>
                 </HexagonWrapper>
-                <HexagonWrapper style={{"margin-top": "0px", "margin-bottom": "-40px","background":"#F9E4AF"}}>
+                <HexagonWrapper style={{"margin-top": "0px", "margin-bottom": "-40px","margin-left":"8px","background":"#F9E4AF"}}>
                     <Content style={{"font-size":"22px"}}>BoB 및 각종<br/>보안 자격증 준비</Content>
                 </HexagonWrapper>
             </HexagonRow>
