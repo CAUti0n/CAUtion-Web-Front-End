@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import profileimg from "./profile.png"
-
+import gitIcon from "./git.png";
 
 const ManageWrapper = styled.a`
   width: 200px;
+  height: 250px;
   text-decoration: none;
   color: black;
 
@@ -18,8 +19,8 @@ const ManageWrapper = styled.a`
 
   &:hover {
     box-shadow: 0px 2px 3px 4px lightgray;
-  {/*transform: rotateY(180deg);*/}
-    
+    transform: rotateY(180deg);
+
   }
 
 `
@@ -39,7 +40,7 @@ const PositionWrapper = styled.div`
 const NameWrapper = styled.div`
 
   font-size: 25px;
-  font-weight: bold;
+ 
   letter-spacing: 2px;
   text-align: center;
   font-family: 'Do Hyeon', sans-serif;
@@ -57,11 +58,19 @@ const Front = styled.div`
 
 `
 const Back = styled.div`
+
+  position :relative;
+  bottom : 40px;
   backface-visibility: hidden;
 
   transform: rotateY(180deg);
-  
+
 `
+
+const GitImg = styled.img`
+  width: 30px;
+`
+
 const ManageCard = ({
                         profImg = profileimg,
                         positions = '2기 회장',
@@ -69,18 +78,20 @@ const ManageCard = ({
                         gitLink = "https://github.com/lims00"
                     }) => {
     return (
-        <ManageWrapper href={gitLink}>
-            <Front>
-                <ProfileImg src={profImg}/>
-                <NameContainer>
-                    <PositionWrapper>{positions} </PositionWrapper>
-                    <NameWrapper>{name}</NameWrapper>
-                </NameContainer>
-            </Front>
-            <Back>
-                git 주소를 넣을 까
-            </Back>
-        </ManageWrapper>);
+
+            <ManageWrapper href={gitLink}>
+                <Front>
+                    <ProfileImg src={profImg}/>
+                    <NameContainer>
+                        <PositionWrapper>{positions} </PositionWrapper>
+                        <NameWrapper>{name}</NameWrapper>
+                    </NameContainer>
+                </Front>
+                {/*<Back>
+                    <GitImg src={gitIcon}> {gitLink}</GitImg>
+                </Back>*/}
+            </ManageWrapper>
+        );
 }
 
 export default ManageCard;

@@ -45,7 +45,7 @@ const Cards = styled.div`
 
 
 const Study = ({props}) => {
-    const [studyList, setStudyList] = useState(null);
+    {/*const [studyList, setStudyList] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
@@ -113,15 +113,18 @@ const Study = ({props}) => {
 
         return studyArray;
     }
-
+*/}
 
     return (<div>
         <Nav/>
         <Title props={"Study"} style={{"margin-bottom": "0px"}}/>
         <Wrapper>
             <Cards>
-                {ShowStudy()}
-
+                {/*서버 킬때 여기 주석 지워주면 됨*/}
+                {/*{ShowStudy()}*/}
+                <Year>2023-1</Year>
+                <StudyCard/>
+                <StudyCard/><StudyCard/><StudyCard/><StudyCard/>
             </Cards>
         </Wrapper>
         <Footer/>
