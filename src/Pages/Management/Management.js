@@ -8,7 +8,7 @@ import ManageCard from '../../Components/management/ManageCard';
 import Footer from '../../Components/footer/Footer';
 import axios from "axios";
 import profileimg from "../../Components/management/profile.png";
-import management from "./Management";
+
 
 const Wrapper = styled.div`
   display: flex;
@@ -28,7 +28,8 @@ const HallWrapper = styled.div`
 
 
 const Management = () => {
-    {/*const [manageList, setManageList] = useState(null);
+    {/*
+    const [manageList, setManageList] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
@@ -44,9 +45,9 @@ const Management = () => {
             const response = await axios.get("http://localhost:8080/management");
             //날짜 내림차순으로 정렬하고 studyList에 받은 response 넣기
             setManageList(response.data.sort(function (a, b) {
-                return Number(b.year.substring(0,1)) - Number(a.year.substring(0,1));
+                return Number(b.manage.substring(0,1)) - Number(a.manage.substring(0,1));
             }));
-
+            console.log("hi");
             console.log(manageList);
 
 
@@ -75,17 +76,19 @@ const Management = () => {
 
             manageArray.push(<ManageCard
                         //이미지 없음
-                        positions ={manageList[i]["manage"].substring(0,2)+" "+manageList[i]["manage"].substring(3,)}
+profImg={manageList[i]["image"]}
+                        positions ={manageList[i]["manage"]}
                             name ={manageList[i]["grade"]+"학번 "+manageList[i]["title"]}
                             gitLink ={manageList[i]["githubURL"]}
+email={manageList[i]["email"]}
             ></ManageCard>);
         }
 
         return manageArray;
 
     };
-    */}
 
+*/}
 
     return (
         <div>
