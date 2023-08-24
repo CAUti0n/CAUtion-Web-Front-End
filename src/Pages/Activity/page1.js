@@ -11,17 +11,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "../../Components/footer/Footer";
 import ActivityItem from '../../Components/card/ActivityItem';
 
-
-const Wrapper = styled.div`
-  padding-right: 100px;
-  padding-left: 100px;
-`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 -0px;
-`
+  margin: 0 -15px;
+`;
+
+const ActivityCard = styled.div`
+  flex: 0 0 calc(33.33% - 20px); // 카드 너비와 여백 보정
+  margin: 0 15px; 
+`;
+
 const activities = [
     {
         id: 1,
@@ -48,38 +48,22 @@ const activities = [
         name: '와아',
         date: '2023-08-15',
     },
-
 ];
 const ActivityPage1 = () => {
     return (
-        <div>
+            <Cards>
+                {activities.map((activity, index) => (
+                    <ActivityCard key={activity.id}>
+                        <ActivityItem
+                            imageSrc={activity.imageSrc}
+                            name={activity.name}
+                            startDate={activity.startDate}
+                            endDate={activity.endDate}
+                        />
+                    </ActivityCard>
+                ))}
+            </Cards>
 
-            <Nav />
-            <Title props={'2021'}/>
-            <Container>
-                <Row>
-                    <Col xs={1} md={2}></Col>
-                    <Col md={8}>
-                        <Wrapper>
-                            <Cards>
-                                {activities.map((activity, index) => (
-                                    <div key={activity.id} className="col-md-6">
-                                        <ActivityItem
-                                            imageSrc={activity.imageSrc}
-                                            name={activity.name}
-                                            startDate={activity.startDate}
-                                            endDate={activity.endDate}
-                                        />
-                                    </div>
-                                ))}
-                            </Cards>
-                        </Wrapper>
-                    </Col>
-                </Row>
-            </Container>
-            <Footer/>
-
-        </div>
     );
 };
 
