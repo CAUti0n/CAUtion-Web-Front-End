@@ -29,7 +29,7 @@ const Management = () => {
             <Nav/>
             <HallWrapper>
 
-                <Title props={'Management'}/>
+                <Title props={'Management'} />
 
                 <Wrapper>
                     {/*props.map((e)=> (<ManageCard />))*/}
