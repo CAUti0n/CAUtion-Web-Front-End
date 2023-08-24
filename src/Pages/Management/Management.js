@@ -12,16 +12,65 @@ import profileimg from "../../Components/management/profile.png";
 
 const Wrapper = styled.div`
   display: flex;
-  width: 800px;
+  width: 100%;
+ 
   margin:auto;
+
   flex-flow : row wrap;
 `
 const HallWrapper = styled.div`
-  min-height: calc(100% - 240px);
   align-items: center;
 
   justify-content: center;
   min-height: calc(80vh - 160px);
+  width: 100%;
+  @media screen and (max-width: 370px) {
+    padding-left: 20%;
+  }
+  @media screen and (max-width: 437px) and (min-width: 370px) {
+    padding-left: 20%;
+  }
+  @media screen and (max-width: 470px) and (min-width: 437px) {
+    padding-left: 20%;
+    padding-right: 5%;
+  }
+  @media screen and (max-width: 590px) and (min-width: 470px) {
+    padding-left: 30%;
+    padding-right: 15%;
+  }
+  @media screen and (max-width: 621px) and (min-width: 590px) {
+    padding-left: 35%;
+    padding-right: 15%;
+  }
+  @media screen and (min-width: 621px) and (max-width: 760px) {
+    padding-left: 15%;
+    padding-right: 5%;
+  }
+  @media screen and (min-width: 760px) and (max-width: 941px) {
+    padding-left: 20%;
+    padding-right: 5%;
+  }
+  @media screen and (min-width: 941px) and (max-width: 1100px) {
+    padding-left: 15%;
+    padding-right: 5%;
+  }
+  @media screen and (max-width: 1365px) and (min-width: 1100px) {
+    padding-left: 20%;
+    padding-right: 10%;
+  }
+  @media screen and (max-width: 1500px) and (min-width: 1365px) {
+    padding-left: 25%;
+    padding-right: 20%;
+  }
+  @media screen and (max-width: 1800px) and (min-width: 1500px) {
+    padding-left: 30%;
+    padding-right: 20%;
+  }
+  @media screen and (min-width: 1800px) {
+    padding-left: 30%;
+    padding-right: 20%;
+  }
+
 `
 
 
@@ -87,7 +136,6 @@ email={manageList[i]["email"]}
         return manageArray;
 
     };
-
 */}
 
     return (
