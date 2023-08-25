@@ -11,7 +11,7 @@ const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px; /* Adjust padding for responsiveness */
+  padding: 0 20px; 
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -75,7 +75,7 @@ const NavLink = styled(Link)`
   font-size: 24px;
   font-weight: 500;
   padding: 0 15px;
-  margin: 0 10px; /* Add margin for consistent spacing */
+  margin: 0 10px; 
   transition: all 0.3s ease;
 
   &:hover {
@@ -92,14 +92,12 @@ const NavLink = styled(Link)`
 const Nav = () => {
     return (
         <NavContainer>
-            {/* Logo */}
             <LogoContainer>
                 <Link to='/'>
                     <LogoImg src='img/CAUtion_logo.png' alt='CAUtion_logo' />
                 </Link>
             </LogoContainer>
 
-            {/* Nav Links */}
             <NavLinkContainer>
                 <NavLink to='/management'>Management</NavLink>
                 <NavLink to='/study'>Study</NavLink>

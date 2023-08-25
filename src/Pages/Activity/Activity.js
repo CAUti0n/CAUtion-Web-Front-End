@@ -65,7 +65,11 @@ const CenteredContainer = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  opacity: ${({ visible }) => (visible ? 1 : 0)};
+  transform: translateY(${({ visible }) => (visible ? '0' : '20px')});
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 `;
+
 
 
 const Activity = () => {
