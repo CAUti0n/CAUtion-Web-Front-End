@@ -175,7 +175,7 @@ const Study = ({props}) => {
             <Cards>
                 {/*서버 킬때 여기 주석 지워주면 됨*/}
                 {/*{ShowStudy()}*/}
-                <Year>2023-1</Year>
+                <Year  style={{"margin-top": "0px"}}>2023-1</Year>
                 <StudyCard/>
                 <StudyCard/><StudyCard/><StudyCard/><StudyCard/>
             </Cards>

@@ -15,12 +15,14 @@ const Wrapper = styled.div`
   width: 100%;
  
   margin:auto;
-
+align-items: center;
+  position: relative;
+  
   flex-flow : row wrap;
 `
 const HallWrapper = styled.div`
   align-items: center;
-
+  margin-left: 0px;
   justify-content: center;
   min-height: calc(80vh - 160px);
   width: 100%;
@@ -142,9 +144,10 @@ email={manageList[i]["email"]}
         <div>
 
             <Nav/>
+            <Title props={'Management'} />
             <HallWrapper>
 
-                <Title props={'Management'} />
+
 
                 <Wrapper>
                     {/*서버 킬때 여기 실행하면 됨*/}
