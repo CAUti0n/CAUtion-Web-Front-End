@@ -6,12 +6,14 @@ import Nav from '../../Components/Nav'
 // Styles
 import styles from './styles/Home.module.css'
 import Footer from "../../Components/footer/Footer";
-import About from "../../Components/about/About";
+import About from "../../Components/home/about/About";
+import CardAnimation from "../../Components/home/withCaution/CardAnimation";
 
 
 function HomeImg() {
     return <img src={require(`./images/main_img.png`)} alt="main_img" className={styles.main_img}></img>
 }
+
 
 
 function HomeContents() {
@@ -26,13 +28,13 @@ function HomeContents() {
             <About/>
         </div>
         <h2>With CAUtion</h2>
+
         <div className={styles.card_wrapper}>
+            {/*<CardAnimation></CardAnimation>*/}
             <Card title="D2 CAMPUS PARTNER" date="2022~"/>
             <Card title="HSpace" date="2022~"/>
             <Card title="INCOGNITO" date="2022~"/>
             <Card title="CCA" date="2022~"/>
-        </div>
-        <div className={styles.card_wrapper}>
             <Card title="BoB 총동문회 MOU" date="2023~"/>
         </div>
 

@@ -14,6 +14,11 @@ const Wrapper = styled.div`
   justify-content: center;
   align-content: center;
   min-height: calc(80vh - 160px);
+  
+  
+  
+  
+  
 `;
 
 const Year = styled.div`
@@ -21,9 +26,10 @@ const Year = styled.div`
   font-size: 35px;
   font-weight: bold;
   padding-left: 3px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 784px;
+  
+  margin-left: 3px;
+  margin-right: 15%;
+  width: 100%;
   align-items: initial;
   justify-content: initial;
   margin-top: 40px;
@@ -36,16 +42,63 @@ const Year = styled.div`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 
   margin-bottom: 100px;
+  @media screen and (max-width: 370px) {
+    padding-left: 20%;
+  }
+  @media screen and (max-width: 437px) and (min-width: 370px) {
+    padding-left: 20%;
+  }
+  @media screen and (max-width: 470px) and (min-width: 437px) {
+    padding-left: 20%;
+    padding-right: 5%;
+  }
+  @media screen and (max-width: 590px) and (min-width: 470px) {
+    padding-left: 30%;
+    padding-right: 15%;
+  }
+  @media screen and (max-width: 621px) and (min-width: 590px) {
+    padding-left: 35%;
+    padding-right: 15%;
+  }
+  @media screen and (min-width: 621px) and (max-width: 800px) {
+    padding-left: 15%;
+    padding-right: 5%;
+  }
+  @media screen and (min-width: 800px) and (max-width: 980px) {
+    padding-left: 20%;
+    padding-right: 5%;
+  }
+  @media screen and (min-width: 980px) and (max-width: 1243px) {
+    padding-left: 15%;
+    padding-right: 5%;
+  }
+  @media screen and (max-width: 1444px) and (min-width: 1243px) {
+    padding-left: 25%;
+    padding-right: 10%;
+  }
+  @media screen and (max-width: 1590px) and (min-width: 1444px) {
+    padding-left: 25%;
+    padding-right: 20%;
+  }
+  @media screen and (max-width: 1800px) and (min-width: 1590px) {
+    padding-left: 30%;
+    padding-right: 20%;
+  }
+  @media screen and (min-width: 1800px) {
+    padding-left: 30%;
+    padding-right: 20%;
+  }
+
 `;
 
 
 const Study = ({props}) => {
-    const [studyList, setStudyList] = useState(null);
+    {/*const [studyList, setStudyList] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
@@ -113,15 +166,18 @@ const Study = ({props}) => {
 
         return studyArray;
     }
-
+*/}
 
     return (<div>
         <Nav/>
         <Title props={"Study"} style={{"margin-bottom": "0px"}}/>
         <Wrapper>
             <Cards>
-                {ShowStudy()}
-
+                {/*서버 킬때 여기 주석 지워주면 됨*/}
+                {/*{ShowStudy()}*/}
+                <Year  style={{"margin-top": "0px"}}>2023-1</Year>
+                <StudyCard/>
+                <StudyCard/><StudyCard/><StudyCard/><StudyCard/>
             </Cards>
         </Wrapper>
         <Footer/>
