@@ -6,10 +6,10 @@
 
 
 .arrow {
-    width: 50px;
-    height: 2px;
+    width: 3vw; /* 상대적인 너비 설정 */
+    height: 0.2vw; /* 상대적인 높이 설정 */
     background-color: seagreen;
-    margin: 3px;
+    margin: 0.3vw; /* 상대적인 여백 설정 */
 }
 
 

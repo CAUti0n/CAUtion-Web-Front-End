@@ -4,14 +4,14 @@ import styled from 'styled-components';
 
 const ActivityBox = styled.div`
   border: 2px solid grey;
-  display: inline-block;
+  display: flex;
   margin: 10px;
   width: 250px;
   height: 300px;
   padding: 16px;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 
   &:hover {
     background-color: lightgrey;

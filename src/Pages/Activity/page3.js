@@ -1,34 +1,28 @@
 import React from 'react'
-
-import Nav from '../../Components/Nav'
-import Title from "../../Components/title/Title";
 import styled from "styled-components";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from "../../Components/footer/Footer";
 import ActivityItem from '../../Components/card/ActivityItem';
 
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -15px; // 페이지 양 끝 여백 보정
+  justify-content: center;
 `;
 
+
 const ActivityCard = styled.div`
-  flex: 0 0 calc(33.33% - 20px); // 카드 너비와 여백 보정
-  margin: 0 15px; // 카드 사이 여백
+  flex: 0 0 calc(33.33% - 20px);
+  margin: 0 15px;
 `;
 
 const activities = [
     {
         id: 1,
-        imageSrc: '/img/sample_1.png',
+        imageSrc: '/img/sample_2.png',
         name: 'DEVIEW CAMPUS 2023',
-        startDate: '2023-08-10',
-        endDate: '2023-08-15',
+        startDate: '2023-08-15',
     },
     {
         id: 2,
@@ -49,7 +43,7 @@ const activities = [
         date: '2023-08-15',
     },
 ];
-const ActivityPage1 = () => {
+const ActivityPage3 = () => {
     return (
         <Cards>
             {activities.map((activity, index) => (
@@ -63,8 +57,7 @@ const ActivityPage1 = () => {
                 </ActivityCard>
             ))}
         </Cards>
-
     );
 };
 
-export default ActivityPage1;
+export default ActivityPage3;
