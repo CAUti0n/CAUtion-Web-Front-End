@@ -13,9 +13,10 @@ const NavContainer = styled.div`
   align-items: center;
   padding: 0 20px; 
 
-  @media (max-width: 768px) {
+  @media (max-width: 836px) {
     flex-direction: column;
     padding: 20px;
+   
   }
 `;
 
@@ -35,7 +36,7 @@ const RecruitBtn = styled.button`
     background-color: #f5f5f5;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 836px) {
     margin: 10px 0;
     width: 100%;
     display: none;
@@ -47,7 +48,7 @@ const LogoContainer = styled.div`
   align-items: center;
   margin-left: 200px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 836px) {
     margin: 0;
   }
 `;
@@ -61,10 +62,11 @@ const NavLinkContainer = styled.div`
   align-items: center;
   margin-right: 170px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 836px) {
     margin: 0;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
+    
   }
 `;
 
@@ -82,10 +84,10 @@ const NavLink = styled(Link)`
     color: #ddd;
   }
 
-  @media (max-width: 768px) {
-    font-size: 18px;
+  @media (max-width: 836px) {
+    font-size: 24px;
     padding: 0 10px;
-    margin: 0;
+    margin:0;
   }
 `;
 

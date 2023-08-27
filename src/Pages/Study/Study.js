@@ -6,6 +6,7 @@ import StudyCard from "../../Components/study/StudyCard";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "../../Components/footer/Footer";
 import axios from 'axios';
+import ErrorPage from "../error/ErrorPage";
 
 const Wrapper = styled.div`
   position: relative;
@@ -98,7 +99,7 @@ const Cards = styled.div`
 
 
 const Study = ({props}) => {
-    {/*const [studyList, setStudyList] = useState(null);
+    const [studyList, setStudyList] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
 
@@ -133,8 +134,10 @@ const Study = ({props}) => {
 
     //로딩중 일때 화면
 
-    if (error) return (<h1>ERROR</h1>);
-    if (!studyList) return (<h1> nothing</h1>);
+    if (error) return (<ErrorPage></ErrorPage>);
+    if (!studyList) return (<div>
+        <Nav/><Title props={"Study"} ></Title>
+    </div>);
 
 
     function ShowStudy() {
@@ -166,7 +169,6 @@ const Study = ({props}) => {
 
         return studyArray;
     }
-*/}
 
     return (<div>
         <Nav/>
@@ -174,7 +176,7 @@ const Study = ({props}) => {
         <Wrapper>
             <Cards>
                 {/*서버 킬때 여기 주석 지워주면 됨*/}
-                {/*{ShowStudy()}*/}
+               {ShowStudy()}
                 <Year  style={{"margin-top": "0px"}}>2023-1</Year>
                 <StudyCard/>
                 <StudyCard/><StudyCard/><StudyCard/><StudyCard/>
