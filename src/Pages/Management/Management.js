@@ -1,24 +1,24 @@
-
-import React, {useEffect, useState} from 'react'
+import React, {Suspense} from 'react'
 
 import styled from "styled-components";
 import Nav from '../../Components/Nav'
 import Title from "../../Components/title/Title";
-import ManageCard from '../../Components/management/ManageCard';
 import Footer from '../../Components/footer/Footer';
-import axios from "axios";
-import profileimg from "../../Components/management/profile.png";
+import ErrorPage from "../error/ErrorPage";
+import LoadingPage from "../Loading/LoadingPage";
+import ManageList from "../../Components/management/ManageList";
+import fetchManage from "../../Datafetch/fetchManage";
 
 
 const Wrapper = styled.div`
   display: flex;
   width: 100%;
- 
-  margin:auto;
-align-items: center;
+
+  margin: auto;
+  align-items: center;
   position: relative;
-  
-  flex-flow : row wrap;
+
+  flex-flow: row wrap;
 `
 const HallWrapper = styled.div`
   align-items: center;
@@ -75,92 +75,47 @@ const HallWrapper = styled.div`
 
 `
 
+class ErrorBoundary extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {hasError: false};
+    }
 
+    static getDerivedStateFromError(error) {
+        // 다음 렌더링에서 폴백 UI가 보이도록 상태를 업데이트 합니다.
+        return {hasError: true};
+    }
+
+
+    render() {
+        if (this.state.hasError) {
+            // 폴백 UI를 커스텀하여 렌더링할 수 있습니다.
+            return <ErrorPage></ErrorPage>;
+        }
+
+        return this.props.children;
+    }
+}
 
 
 const Management = () => {
-    {/*
-    const [manageList, setManageList] = useState(null);
-    const [loading, setLoading] = useState(false);
-    const [error, setError] = useState(null);
-
-    const LoadData = async () => {
-
-        try {
-            //studyList 비우고
-            setManageList(null);
-            //오류도 비우고
-            setError(null);
-            //loading중임을 표시
-            setLoading(true);
-            const response = await axios.get("http://localhost:8080/management");
-            //날짜 내림차순으로 정렬하고 studyList에 받은 response 넣기
-            setManageList(response.data.sort(function (a, b) {
-                return Number(b.manage.substring(0,1)) - Number(a.manage.substring(0,1));
-            }));
-            console.log("hi");
-            console.log(manageList);
-
-
-
-        } catch (error) {
-            console.log(error);
-            setError(error);
-        }
-        setLoading(false);
-    };
-    useEffect(() => {
-        //studyList 비우고
-        LoadData();
-
-    }, []);
-
-    if (error) return (<h1>ERROR</h1>);
-    if (!manageList) return (<h1> nothing</h1>);
-
-    function ShowManage() {
-        let manageArray = [];
-
-
-
-        for (let i = 0; i < manageList.length; i++) {
-
-            manageArray.push(<ManageCard
-                        //이미지 없음
-profImg={manageList[i]["image"]}
-                        positions ={manageList[i]["manage"]}
-                            name ={manageList[i]["grade"]+"학번 "+manageList[i]["title"]}
-                            gitLink ={manageList[i]["githubURL"]}
-email={manageList[i]["email"]}
-            ></ManageCard>);
-        }
-
-        return manageArray;
-
-    };
-*/}
 
     return (
         <div>
+            <ErrorBoundary>
+                <Nav/>
+                <Suspense fallback={<LoadingPage></LoadingPage>}>
+                <Title props={'Management'}/>
+                <HallWrapper>
 
-            <Nav/>
-            <Title props={'Management'} />
-            <HallWrapper>
 
+                    <Wrapper>
+                        <ManageList manage={fetchManage()}></ManageList>
+                    </Wrapper>
 
-
-                <Wrapper>
-                    {/*서버 킬때 여기 실행하면 됨*/}
-                    {/*{ShowManage()}*/}
-                    <ManageCard/>
-
-                    <ManageCard/>
-                    <ManageCard/>
-
-                    <ManageCard/>
-                </Wrapper>
-
-            </HallWrapper>
+                </HallWrapper>
+                </Suspense>
+            </ErrorBoundary>
             <Footer/>
         </div>
     )

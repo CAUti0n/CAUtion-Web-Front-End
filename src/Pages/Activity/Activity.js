@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, {useState} from 'react';
+import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import Nav from '../../Components/Nav';
 import Title from '../../Components/title/Title';
@@ -8,6 +8,7 @@ import ActivityPage1 from './page1';
 import ActivityPage2 from './page2';
 import ActivityPage3 from './page3';
 import styles from './styles/Activity.module.css'
+import ErrorPage from "../error/ErrorPage";
 
 const Wrapper = styled.div`
   display: flex;
@@ -51,7 +52,7 @@ const StoneNumber = styled.div`
   font-weight: bold;
   color: white;
   transition: opacity 0.3s ease-in-out;
-  opacity: ${({ active }) => (active ? '1' : '0.5')};
+  opacity: ${({active}) => (active ? '1' : '0.5')};
 `;
 
 const StoneImageContainer = styled.div`
@@ -65,72 +66,99 @@ const CenteredContainer = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  opacity: ${({ visible }) => (visible ? 1 : 0)};
-  transform: translateY(${({ visible }) => (visible ? '0' : '20px')});
+  opacity: ${({visible}) => (visible ? 1 : 0)};
+  transform: translateY(${({visible}) => (visible ? '0' : '20px')});
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 `;
 
 
+class ErrorBoundary extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {hasError: false};
+    }
+
+    static getDerivedStateFromError(error) {
+        // 다음 렌더링에서 폴백 UI가 보이도록 상태를 업데이트 합니다.
+        return {hasError: true};
+    }
+
+
+    render() {
+        if (this.state.hasError) {
+            // 폴백 UI를 커스텀하여 렌더링할 수 있습니다.
+            return <ErrorPage></ErrorPage>;
+        }
+
+        return this.props.children;
+    }
+}
+
 
 const Activity = () => {
-  const [activeStone, setActiveStone] = useState('stone3');
+    const [activeStone, setActiveStone] = useState('stone3');
 
-  const handleStoneClick = (stone) => {
-    if (activeStone === stone) {
-      setActiveStone(null);
-    } else {
-      setActiveStone(stone);
-    }
-  };
+    const handleStoneClick = (stone) => {
+        if (activeStone === stone) {
+            setActiveStone(null);
+        } else {
+            setActiveStone(stone);
+        }
+    };
 
-  return (
-      <div>
-        <Nav />
-        <Title props={'Activity'} />
-        <Wrapper>
-          <div className={styles.arrowContainer}>
-            <StoneLink onClick={() => handleStoneClick('stone1')} className={styles.stoneItem}>
-              <StoneItem>
-                <StoneImageContainer>
-                  <StoneImage src="/img/stone-image.png" alt="Activity Page" />
-                  <StoneNumber className={styles.stoneNumber} active={activeStone==='stone1'}>2021</StoneNumber>
-                </StoneImageContainer>
-              </StoneItem>
-            </StoneLink>
-            <div className={styles.arrow}></div>
-            <div className={styles.arrow}></div>
-            <div className={styles.arrow}></div>
-            <div className={styles.arrow}></div>
-            <StoneLink onClick={() => handleStoneClick('stone2')} className={styles.stoneItem}>
-              <StoneItem>
-                <StoneImageContainer>
-                  <StoneImage src="/img/stone-image.png" alt="Activity Page" />
-                  <StoneNumber className={styles.stoneNumber}  active={activeStone==='stone2'}>2022</StoneNumber>
-                </StoneImageContainer>
-              </StoneItem>
-            </StoneLink>
-            <div className={styles.arrow}></div>
-            <div className={styles.arrow}></div>
-            <div className={styles.arrow}></div>
-            <div className={styles.arrow}></div>
-            <StoneLink onClick={() => handleStoneClick('stone3')} className={styles.stoneItem}>
-              <StoneItem>
-                <StoneImageContainer>
-                  <StoneImage src="/img/stone-image.png" alt="Activity Page" />
-                  <StoneNumber className={styles.stoneNumber}  active={activeStone==='stone3'}>2023</StoneNumber>
-                </StoneImageContainer>
-              </StoneItem>
-            </StoneLink>
-          </div>
-          <CenteredContainer visible={activeStone !== null}>
-              {activeStone === 'stone1' && <ActivityPage1 />}
-              {activeStone === 'stone2' && <ActivityPage2 />}
-              {activeStone === 'stone3' && <ActivityPage3 />}
-          </CenteredContainer>
-        </Wrapper>
-        <Footer />
-      </div>
-  );
+    return (
+        <div>
+            <Nav/>
+            <ErrorBoundary>
+                <Title props={'Activity'}/>
+                <Wrapper>
+                    <div className={styles.arrowContainer}>
+                        <StoneLink onClick={() => handleStoneClick('stone1')} className={styles.stoneItem}>
+                            <StoneItem>
+                                <StoneImageContainer>
+                                    <StoneImage src="/img/stone-image.png" alt="Activity Page"/>
+                                    <StoneNumber className={styles.stoneNumber}
+                                                 active={activeStone === 'stone1'}>2021</StoneNumber>
+                                </StoneImageContainer>
+                            </StoneItem>
+                        </StoneLink>
+                        <div className={styles.arrow}></div>
+                        <div className={styles.arrow}></div>
+                        <div className={styles.arrow}></div>
+                        <div className={styles.arrow}></div>
+                        <StoneLink onClick={() => handleStoneClick('stone2')} className={styles.stoneItem}>
+                            <StoneItem>
+                                <StoneImageContainer>
+                                    <StoneImage src="/img/stone-image.png" alt="Activity Page"/>
+                                    <StoneNumber className={styles.stoneNumber}
+                                                 active={activeStone === 'stone2'}>2022</StoneNumber>
+                                </StoneImageContainer>
+                            </StoneItem>
+                        </StoneLink>
+                        <div className={styles.arrow}></div>
+                        <div className={styles.arrow}></div>
+                        <div className={styles.arrow}></div>
+                        <div className={styles.arrow}></div>
+                        <StoneLink onClick={() => handleStoneClick('stone3')} className={styles.stoneItem}>
+                            <StoneItem>
+                                <StoneImageContainer>
+                                    <StoneImage src="/img/stone-image.png" alt="Activity Page"/>
+                                    <StoneNumber className={styles.stoneNumber}
+                                                 active={activeStone === 'stone3'}>2023</StoneNumber>
+                                </StoneImageContainer>
+                            </StoneItem>
+                        </StoneLink>
+                    </div>
+                    <CenteredContainer visible={activeStone !== null}>
+                        {activeStone === 'stone1' && <ActivityPage1/>}
+                        {activeStone === 'stone2' && <ActivityPage2/>}
+                        {activeStone === 'stone3' && <ActivityPage3/>}
+                    </CenteredContainer>
+                </Wrapper>
+            </ErrorBoundary>
+            <Footer/>
+        </div>
+    );
 };
 
 export default Activity;

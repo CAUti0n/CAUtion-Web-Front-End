@@ -13,6 +13,7 @@ import ActivityPage3 from "./Pages/Activity/page3";
 
 // Components
 import './App.css'
+import ErrorPage from "./Pages/error/ErrorPage";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/activity/page1" element={<ActivityPage1 />} />
         <Route path="/activity/page2" element={<ActivityPage2 />} />
         <Route path="/activity/page3" element={<ActivityPage3 />} />
+        <Route path="/*" element={<ErrorPage></ErrorPage>}/>
     </Routes>
   )
 }

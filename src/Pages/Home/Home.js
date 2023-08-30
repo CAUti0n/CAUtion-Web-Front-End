@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 // Component
 import Nav from '../../Components/Nav'
@@ -7,7 +7,6 @@ import Nav from '../../Components/Nav'
 import styles from './styles/Home.module.css'
 import Footer from "../../Components/footer/Footer";
 import About from "../../Components/home/about/About";
-import CardAnimation from "../../Components/home/withCaution/CardAnimation";
 
 // for autoSlide
 import 'slick-carousel/slick/slick.css';
@@ -47,7 +46,7 @@ function HomeContents() {
         <div style={{marginBottom:"30px"}}class={styles.title}>With CAUtion</div>
 
         <Slider {...settingSlick}>
-            {/*<CardAnimation></CardAnimation>*/}
+
             <div><Card title="D2 CAMPUS PARTNER" date="2022~"/></div>
             <div><Card title="HSpace" date="2022~"/></div>
             <div><Card title="INCOGNITO" date="2022~"/></div>
@@ -58,23 +57,7 @@ function HomeContents() {
     </div>
 }
 
-const Shadows = () => {
-    return (
-        <defs>
-            <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-                <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
-                <feOffset dx="2" dy="2" result="offsetblur"/>
-                <feComponentTransfer>
-                    <feFuncA type="linear" slope="0.2"/>
-                </feComponentTransfer>
-                <feMerge>
-                    <feMergeNode/>
-                    <feMergeNode in="SourceGraphic"/>
-                </feMerge>
-            </filter>
-        </defs>
-    );
-}
+
 
 function Card(props) {
     return <div className={styles.card}>

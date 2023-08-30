@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import { FiArrowRight } from 'react-icons/fi';
 import styled from 'styled-components';
 
@@ -70,7 +70,7 @@ const NavLinkContainer = styled.div`
   }
 `;
 
-const NavLink = styled(Link)`
+const NavLinkTab = styled(NavLink)`
   text-decoration: none;
   color: #fff;
   font-family: 'Do Hyeon', sans-serif;
@@ -92,6 +92,10 @@ const NavLink = styled(Link)`
 `;
 
 const Nav = () => {
+    const activeStyle= {
+        'color': '#FFD654'
+    };
+
     return (
         <NavContainer>
             <LogoContainer>
@@ -101,9 +105,9 @@ const Nav = () => {
             </LogoContainer>
 
             <NavLinkContainer>
-                <NavLink to='/management'>Management</NavLink>
-                <NavLink to='/study'>Study</NavLink>
-                <NavLink to='/activity'>Activity</NavLink>
+                <NavLinkTab style={({isActive})=>(isActive?activeStyle:{})} to='/management'>Management</NavLinkTab>
+                <NavLinkTab style={({isActive})=>(isActive?activeStyle:{})} to='/study'>Study</NavLinkTab>
+                <NavLinkTab style={({isActive})=>(isActive?activeStyle:{})} to='/activity'>Activity</NavLinkTab>
                 <a href="https://github.com">
                     <RecruitBtn>
                         Recruit <FiArrowRight />
