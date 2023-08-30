@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import profileimg from "./profile.png"
-import gitIcon from "./git.png";
 import {SlEnvolope} from "react-icons/sl";
 import {FiGithub} from "react-icons/fi";
 
