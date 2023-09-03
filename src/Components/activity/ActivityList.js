@@ -3,44 +3,68 @@ import styled from 'styled-components';
 import ActivityItem from './ActivityItem';
 
 const Cards = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(250px, 1fr));
+  gap: 85px;
   justify-content: center;
 `;
-
 const ActivityCard = styled.div`
   flex: 0 0 calc(33.33% - 20px);
   margin: 0 15px;
 `;
 
-const ActivityList = ({ activity }) => {
-    function ShowActivity() {
-        let activityList = activity.activityData.read();
-        console.log(activityList);
-        let activityArray = [];
+const Year = styled.h2`
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+`;
 
-        if (activityList) {
-            for (let i = 0; i < activityList.length; i++) {
-                activityArray.push(
-                    <ActivityCard key={i}>
-                        <ActivityItem
-                            imageSrc={activityList[i]["image"]}
-                            name={activityList[i]["title"]}
-                            startDate={activityList[i]["startDate"]}
-                            endDate={activityList[i]["endDate"]}
-                        />
-                    </ActivityCard>
-                );
+const NoActivityMessage = styled.p`
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+`;
+
+const ActivityList = ({ year, activity }) => {
+    function groupActivitiesByYear(activities) {
+        const groupedActivities = {};
+
+        activities.forEach((activity) => {
+            const activityYear = activity.startDate.substring(0, 4); // 연도 추출
+            if (!groupedActivities[activityYear]) {
+                groupedActivities[activityYear] = [];
             }
-        }
+            groupedActivities[activityYear].push(activity);
+        });
 
-        return activityArray;
+        return groupedActivities;
     }
 
+    const activityList = activity.activityData.read();
+    const groupedActivities = groupActivitiesByYear(activityList);
+
+    const yearActivities = groupedActivities[year] || []; // 연도에 해당하는 활동 배열이 없을 경우 빈 배열로 초기화
+
     return (
-        <Cards>
-            {ShowActivity()}
-        </Cards>
+        <div>
+            {yearActivities.length > 0 ? (
+                <Cards>
+                    {yearActivities.map((activity, index) => (
+                        <ActivityCard key={index}>
+                            <ActivityItem
+                                imageSrc={activity.image}
+                                name={activity.title}
+                                startDate={activity.startDate}
+                                endDate={activity.endDate}
+                                url={activity.url}
+                            />
+                        </ActivityCard>
+                    ))}
+                </Cards>
+            ) : (
+                <NoActivityMessage>Activity가 없습니다.</NoActivityMessage>
+            )}
+        </div>
     );
 };
 
