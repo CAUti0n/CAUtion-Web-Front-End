@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {Suspense, useState} from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import Nav from '../../Components/Nav';
@@ -9,6 +9,9 @@ import ActivityPage2 from './page2';
 import ActivityPage3 from './page3';
 import styles from './styles/Activity.module.css'
 import ErrorPage from "../error/ErrorPage";
+import fetchActivity from "../../Datafetch/fetchActivity";
+import ActivityList from "../../Components/activity/ActivityList";
+import LoadingPage from "../Loading/LoadingPage";
 
 const Wrapper = styled.div`
   display: flex;
@@ -108,8 +111,10 @@ const Activity = () => {
 
     return (
         <div>
-            <Nav/>
+
             <ErrorBoundary>
+                <Nav/>
+                <Suspense fallback={<LoadingPage></LoadingPage>}>
                 <Title props={'Activity'}/>
                 <Wrapper>
                     <div className={styles.arrowContainer}>
@@ -150,11 +155,12 @@ const Activity = () => {
                         </StoneLink>
                     </div>
                     <CenteredContainer visible={activeStone !== null}>
-                        {activeStone === 'stone1' && <ActivityPage1/>}
-                        {activeStone === 'stone2' && <ActivityPage2/>}
-                        {activeStone === 'stone3' && <ActivityPage3/>}
+                        {activeStone === 'stone1' && <ActivityList activity={fetchActivity()} />}
+                        {activeStone === 'stone2' && <ActivityList activity={fetchActivity()} />}
+                        {activeStone === 'stone3' && <ActivityList activity={fetchActivity()} />}
                     </CenteredContainer>
                 </Wrapper>
+            </Suspense>
             </ErrorBoundary>
             <Footer/>
         </div>
