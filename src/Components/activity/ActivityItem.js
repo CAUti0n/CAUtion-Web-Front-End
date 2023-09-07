@@ -31,7 +31,7 @@ const ActivityBox = styled(StyledLink)`
 
 const Image = styled.img`
   width: 100%;
-  max-height: 80%; /* 이미지의 최대 높이를 설정합니다. */
+  max-height: 60%; /* 이미지의 최대 높이를 설정합니다. */
   object-fit: contain; /* 이미지가 컨테이너에 맞게 비율을 유지하도록 합니다. */
 `;
 
