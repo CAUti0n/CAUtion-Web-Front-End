@@ -4,9 +4,6 @@ import styled from 'styled-components';
 import Nav from '../../Components/Nav';
 import Title from '../../Components/title/Title';
 import Footer from '../../Components/footer/Footer';
-import ActivityPage1 from './page1';
-import ActivityPage2 from './page2';
-import ActivityPage3 from './page3';
 import styles from './styles/Activity.module.css'
 import ErrorPage from "../error/ErrorPage";
 import fetchActivity from "../../Datafetch/fetchActivity";
@@ -100,12 +97,14 @@ class ErrorBoundary extends React.Component {
 
 const Activity = () => {
     const [activeStone, setActiveStone] = useState('stone3');
+    const [activeYear, setActiveYear] = useState('2023'); // 초기 연도 설정
 
-    const handleStoneClick = (stone) => {
+    const handleStoneClick = (stone, year) => {
         if (activeStone === stone) {
             setActiveStone(null);
         } else {
             setActiveStone(stone);
+            setActiveYear(year); // 스톤을 클릭할 때 연도 설정
         }
     };
 
@@ -118,7 +117,7 @@ const Activity = () => {
                 <Title props={'Activity'}/>
                 <Wrapper>
                     <div className={styles.arrowContainer}>
-                        <StoneLink onClick={() => handleStoneClick('stone1')} className={styles.stoneItem}>
+                        <StoneLink onClick={() => handleStoneClick('stone1', '2021')} className={styles.stoneItem}>
                             <StoneItem>
                                 <StoneImageContainer>
                                     <StoneImage src="/img/stone-image.png" alt="Activity Page"/>
@@ -131,7 +130,7 @@ const Activity = () => {
                         <div className={styles.arrow}></div>
                         <div className={styles.arrow}></div>
                         <div className={styles.arrow}></div>
-                        <StoneLink onClick={() => handleStoneClick('stone2')} className={styles.stoneItem}>
+                        <StoneLink onClick={() => handleStoneClick('stone2', '2022')} className={styles.stoneItem}>
                             <StoneItem>
                                 <StoneImageContainer>
                                     <StoneImage src="/img/stone-image.png" alt="Activity Page"/>
@@ -144,7 +143,7 @@ const Activity = () => {
                         <div className={styles.arrow}></div>
                         <div className={styles.arrow}></div>
                         <div className={styles.arrow}></div>
-                        <StoneLink onClick={() => handleStoneClick('stone3')} className={styles.stoneItem}>
+                        <StoneLink onClick={() => handleStoneClick('stone3', '2023')} className={styles.stoneItem}>
                             <StoneItem>
                                 <StoneImageContainer>
                                     <StoneImage src="/img/stone-image.png" alt="Activity Page"/>
@@ -155,9 +154,7 @@ const Activity = () => {
                         </StoneLink>
                     </div>
                     <CenteredContainer visible={activeStone !== null}>
-                        {activeStone === 'stone1' && <ActivityList activity={fetchActivity()} />}
-                        {activeStone === 'stone2' && <ActivityList activity={fetchActivity()} />}
-                        {activeStone === 'stone3' && <ActivityList activity={fetchActivity()} />}
+                        <ActivityList year={activeYear} activity={fetchActivity(activeYear)} />
                     </CenteredContainer>
                 </Wrapper>
             </Suspense>
