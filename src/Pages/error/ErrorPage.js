@@ -10,6 +10,10 @@ const LogoWrapper = styled.div`
 `
 const LogoImg = styled.img`
   width: 350px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 
 `
 
@@ -23,6 +27,10 @@ const TextWrapper = styled.div`
   font-family: 'Montserrat';
   font-style: normal;
   margin: 10px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 
 `
 

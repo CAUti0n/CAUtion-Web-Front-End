@@ -31,7 +31,10 @@ const RecruitBtn = styled.button`
   font-family: 'Do Hyeon', sans-serif;
   color: #00b992;
   margin-left: 20px;
-
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
   &:hover {
     background-color: #f5f5f5;
   }
@@ -55,6 +58,10 @@ const LogoContainer = styled.div`
 
 const LogoImg = styled.img`
   width: 230px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 `;
 
 const NavLinkContainer = styled.div`
@@ -79,7 +86,10 @@ const NavLinkTab = styled(NavLink)`
   padding: 0 15px;
   margin: 0 10px; 
   transition: all 0.3s ease;
-
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
   &:hover {
     color: #ddd;
   }

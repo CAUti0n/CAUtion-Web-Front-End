@@ -31,6 +31,11 @@ const ProfileImg = styled.img`
   height: 180px;
   border-radius: 10px;
   object-fit: cover;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
+  
 `
 const PositionWrapper = styled.div`
   text-decoration-line: none;
@@ -39,6 +44,10 @@ const PositionWrapper = styled.div`
   text-align: center;
   justify-content: center;
   font-family: 'Do Hyeon', sans-serif;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 `
 const NameWrapper = styled.div`
 
@@ -47,7 +56,10 @@ const NameWrapper = styled.div`
   letter-spacing: 2px;
   text-align: center;
   font-family: 'Do Hyeon', sans-serif;
-
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 `
 
 
@@ -70,13 +82,7 @@ const Back = styled.div`
 
 `
 
-const GitImg = styled.img`
-  margin-right: 10px;
-  width: 30px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  
-`
+
 const GitID=styled.div`
   text-align: justify;
   position: absolute;
@@ -85,6 +91,10 @@ const GitID=styled.div`
   margin-top: 15px;
   color:grey;
   font-family: 'Do Hyeon', sans-serif;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 `
 const EmailAdd=styled.div`
   text-align: justify;
@@ -93,6 +103,7 @@ const EmailAdd=styled.div`
   display: inline;
 color:grey;
   font-family: 'Do Hyeon', sans-serif;
+  
 `
 const ManageCard = ({
                         profImg = profileimg,

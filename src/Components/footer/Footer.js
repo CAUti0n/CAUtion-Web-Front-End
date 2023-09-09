@@ -22,6 +22,10 @@ const TitleWrapper = styled.div`
   font-size: 30px;
   font-family: 'Do Hyeon', sans-serif;
   margin-left: 10px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 
 `
 const ContentWrapper = styled.div`

@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import styled, { css } from 'styled-components';
+import React from 'react';
+import styled from 'styled-components';
 
 const HexagonGridWrapper = styled.div`
   display: flex;
@@ -53,6 +53,10 @@ const Content = styled.div`
   font-size: 25px;
   font-weight: bold;
   pointer-events: none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 `;
 
 const About = () => {

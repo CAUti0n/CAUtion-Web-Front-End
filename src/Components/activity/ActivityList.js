@@ -11,13 +11,13 @@ const Cards = styled.div`
 const ActivityCard = styled.div`
   flex: 0 0 calc(33.33% - 20px);
   margin: 0 15px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 `;
 
-const Year = styled.h2`
-  width: 100%;
-  text-align: center;
-  margin: 20px 0;
-`;
+
 
 const NoActivityMessage = styled.p`
   text-align: center;
