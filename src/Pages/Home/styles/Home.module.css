@@ -22,7 +22,13 @@
     margin: 0 auto;
 
     display: flex;
+
     flex-direction: column;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
 }
 
 .text {
@@ -33,6 +39,10 @@
     margin: 30px;
     text-align: center;
     white-space: pre-line;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
 }
 
 .main_img {
@@ -87,6 +97,10 @@
     letter-spacing: 0.2px;
     text-align: center;
     color: #00B992;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
     
 }
 

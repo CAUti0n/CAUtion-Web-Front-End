@@ -18,6 +18,10 @@ const TextWrapper = styled.div`
   align-items: center;
   font-size: 35px;
   color: #00b992;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 `
 
 

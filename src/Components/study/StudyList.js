@@ -65,7 +65,7 @@ const Year = styled.div`
   font-size: 35px;
   font-weight: bold;
   padding-left: 3px;
-  
+
   margin-left: 3px;
   margin-right: 15%;
   width: 100%;
@@ -75,33 +75,36 @@ const Year = styled.div`
   color: #559E8E;
 
   border-bottom: 3px double #559E8E;
-
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
 `;
 
 
-const StudyList=({study})=>{
+const StudyList = ({study}) => {
 
     function ShowStudy() {
         let studyList = study.studyData.read();
         console.log(studyList);
-        let studyArray =[]
+        let studyArray = []
         if (studyList) {
 
             const studyYear = {year: studyList[0]["title"].substring(0, 6)};
             //첫번째 year 마진 조절하기 위해서 한 작업
-             studyArray.push(<Year style={{"margin-top": "0px"}}>{studyYear.year}</Year>);
+            studyArray.push(<Year style={{"margin-top": "0px"}}>{studyYear.year}</Year>);
 
 
             for (let i = 0; i < studyList.length; i++) {
 
-                {
-                    studyYear.year === studyList[i]["title"].substring(0, 6) ? studyArray.push() : studyArray.push(
-                        <Year>{studyList[i]["title"].substring(0, 6)}
-                        </Year>)
-                }
-                {
-                    studyYear.year === studyList[i]["title"].substring(0, 6) ? studyArray.push() : studyYear.year = studyList[i]["title"].substring(0, 6)
-                }
+
+                studyYear.year === studyList[i]["title"].substring(0, 6) ? studyArray.push() : studyArray.push(
+                    <Year>{studyList[i]["title"].substring(0, 6)}
+                    </Year>)
+
+
+                studyYear.year === studyList[i]["title"].substring(0, 6) ? studyArray.push() : studyYear.year = studyList[i]["title"].substring(0, 6)
+
 
                 studyArray.push(<StudyCard
                     img={studyList[i]["image"]}
@@ -117,7 +120,7 @@ const StudyList=({study})=>{
 
     }
 
-    return(
+    return (
         <Cards>
             {ShowStudy()}
         </Cards>

@@ -25,6 +25,10 @@ const StudyTitle = styled.div`
   padding-right: 5px;
   vertical-align: middle;
   color: black;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 !important
 `;
 const Mentor = styled.div`
@@ -33,11 +37,19 @@ const Mentor = styled.div`
   padding-left: 5px;
   padding-right: 5px;
   color: grey;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 !important
 `;
 const StudyImg = styled.img`
   width: 100%;
   height: 60%;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
 `;
 
 const StudyCard = ({

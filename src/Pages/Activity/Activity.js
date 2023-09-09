@@ -24,7 +24,10 @@ const StoneLink = styled(Link)`
   position: relative;
   text-align: center;
   transition: transform 0.3s ease-in-out;
-
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
   &:hover {
     transform: scale(1.1);
   }
@@ -33,11 +36,19 @@ const StoneLink = styled(Link)`
 const StoneImage = styled.img`
   width: 100%;
   height: auto;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 `;
 
 const StoneItem = styled.div`
   display: inline-block;
   margin: 0 10px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 `;
 
 const StoneNumber = styled.div`
@@ -53,6 +64,10 @@ const StoneNumber = styled.div`
   color: white;
   transition: opacity 0.3s ease-in-out;
   opacity: ${({active}) => (active ? '1' : '0.5')};
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
 `;
 
 const StoneImageContainer = styled.div`

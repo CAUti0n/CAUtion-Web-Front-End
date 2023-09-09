@@ -13,6 +13,10 @@ const Wrapper = styled.div`
   line-height: 20px;
   font-weight: 700;
   color: #00b992;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none
   
 `
 
