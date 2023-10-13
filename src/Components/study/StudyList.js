@@ -86,7 +86,6 @@ const StudyList = ({study}) => {
 
     function ShowStudy() {
         let studyList = study.studyData.read();
-        console.log(studyList);
         let studyArray = []
         if (studyList) {
 

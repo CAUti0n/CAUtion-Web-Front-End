@@ -20,6 +20,8 @@ const Wrapper = styled.div`
 
   flex-flow: row wrap;
 `
+
+
 const HallWrapper = styled.div`
   align-items: center;
   margin-left: 0px;

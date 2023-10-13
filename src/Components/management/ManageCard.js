@@ -107,9 +107,9 @@ color:grey;
 `
 const ManageCard = ({
                         profImg = profileimg,
-                        positions = '2기 회장',
-                        name = "22학번 민윤기",
-                        gitLink = "https://github.com/lims00",
+                        positions = '학번',
+                        name = "학번 이름",
+                        gitLink = "https://github.com",
     email=""
                     }) => {
     return (
@@ -124,7 +124,6 @@ const ManageCard = ({
                 </Front>
                 <Back>
                     <ProfileImg src={profImg} style={{"filter": "blur(2px) brightness(90%)","-webkit-filter": "blur(2px)"}}/>
-                    {/*<GitImg src={gitIcon} />*/}
                     <FiGithub  style={ {"color":"grey","width": "30px", "height": "25px","margin-right":"10px","margin-top":"18px"}}></FiGithub>
                     <GitID>{gitLink.substring(19,)}</GitID>
                     <br/>
